@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider, useMessages } from 'next-intl'
+import CookieConsent from "@/components/CookiesConsent.tsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <CookieConsent />
           <Footer />
         </NextIntlClientProvider>
       </body>

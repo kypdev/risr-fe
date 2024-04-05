@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider, useMessages } from 'next-intl'
-import CookieConsent from "@/components/CookiesConsent.tsx";
+import CookieConsent from "@/components/CookiesConsent";
 
 const inter = Inter({ subsets: ["latin"] });
 

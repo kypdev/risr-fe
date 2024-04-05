@@ -25,12 +25,12 @@ const Navbar = () => {
         <p className={NavbarStyles.menu}>{t('news')}</p>
         <p className={NavbarStyles.menu}>{t('school-calendar')}</p>
         <p className={NavbarStyles.menu}>{t('work-risr')}</p>
-        <div className='flex flex-row justify-center'>
+        {/* <div className='flex flex-row justify-center'>
           <p className={NavbarStyles.menu}>{t('portals')}</p>
           <svg className="w-2.5 pt-5 text-white  ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
           </svg>
-        </div>
+        </div> */}
         {/* <DropdownMenuDemo /> */}
       </div>
 

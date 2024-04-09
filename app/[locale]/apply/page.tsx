@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './style.module.css'
 import Image from 'next/image'
 
-const page = () => {
+const Page = () => {
   return (
     <>
       <Image src='/school-map/banner.png' className='w-full' width={1440} height={467} alt={''} />
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

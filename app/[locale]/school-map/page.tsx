@@ -8,7 +8,7 @@ import styles from './style.module.css'
 import { cn } from '@/lib/utils'
 import RecentNews from '@/components/RecentNews'
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('School-map')
   return (
     <>
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link className={NavbarStyles.menu} href={'/en/school-map'}>{t('school-map')}</Link>
         {/* <Link className='hover:cursor-pointer' href={'/'}>Home</Link> */}
         <p className={`${NavbarStyles.menu}`}>{t('contact-us')}</p>
-        <Image src='/nav.png' width={148} height={200} alt={''} />
+        <Link href='/'><Image src='/nav.png' width={148} height={200} alt={''} /></Link>
         <p className={`${NavbarStyles.menu} pl-4`}>{t('news')}</p>
         <p className={NavbarStyles.menu}>{t('school-calendar')}</p>
         <p className={NavbarStyles.menu}>{t('work-risr')}</p>

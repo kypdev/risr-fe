@@ -1,9 +1,6 @@
 'use client'
-import DropdownHoverText from '@/components/DropdownHoverText'
-import Image from "next/image"
-import GoogleMapReact from 'google-map-react';
-import Link from 'next/link'
 import RecentNews from '@/components/RecentNews'
+import Image from "next/image"
 import styles from './style.module.css'
 
 

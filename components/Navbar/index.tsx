@@ -20,7 +20,7 @@ const Navbar = () => {
         <p className={`${NavbarStyles.menu} pl-4`}>{t('news')}</p>
         <p className={NavbarStyles.menu}>{t('school-calendar')}</p>
         <p className={NavbarStyles.menu}>{t('work-risr')}</p>
-        <p className={NavbarStyles.menu}>{t('work-risr')}</p>
+        <p className={NavbarStyles.menu}>{t('portals')}</p>
       </div>
       <div className='flex flex-row justify-end pr-20 right-0 absolute'>
         {/* <div className='flex flex-row justify-center'>

@@ -14,7 +14,13 @@ const Page = () => {
       <Banner img='/tuition/banner.svg' title={t('title')} />
       <ChildrenLayout>
         <Title title={t('click-below')} />
-        <Link href={TuitionLinks.tuition} target={Utils.newTab} className='pt-[2vw]'><div className='font-bold 2xl:text-[2vw]'>{t('content')} &#8594;</div></Link>
+        <Link
+          href={TuitionLinks.tuition}
+          target={Utils.newTab}
+          className='pt-[2vw]'
+        >
+          <div className='font-bold 2xl:text-[2vw]'>{t('content')} &#8594;</div>
+        </Link>
       </ChildrenLayout>
     </>
   )

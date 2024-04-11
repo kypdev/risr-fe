@@ -1,7 +1,6 @@
 'use client'
-import { faFacebookF, faInstagram, faLine, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons"
+
 import { useTranslations } from 'next-intl'
-import FooterIcon from './FooterIcon'
 import Image from 'next/image'
 
 const Footer = () => {
@@ -28,7 +27,13 @@ const Footer = () => {
       <div className="flex flex-row justify-center bg-[#1C355E]">
         <p className='text-white'>&copy;{t('copyright')}</p>
       </div> */}
-      <Image className='flex flex-row w-full' src={'/footer/Copyright.svg'} width={1440} height={562} alt={''} />
+      <Image
+        className='flex flex-row w-full'
+        src={'/footer/Copyright.svg'}
+        width={1440}
+        height={562}
+        alt={''}
+      />
     </>
   )
 }

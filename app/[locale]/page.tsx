@@ -42,7 +42,7 @@ export default function Home() {
           <div className='relative flex items-center'>
             <div
               id='slider'
-              className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide'
+              className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth no-scrollbar scrollbar-hide'
             >
               {data.map((item) => (
                 <img

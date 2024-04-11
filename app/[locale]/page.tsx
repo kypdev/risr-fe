@@ -3,19 +3,34 @@ import RecentNews from '@/components/RecentNews'
 import Image from "next/image"
 import styles from './style.module.css'
 import { data } from './mockData'
+import { useTranslations } from 'next-intl'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
+  const t = useTranslations('Home')
   return (
     <div className='bg-grey'>
-      <video
-        src={require("../../public/home/home2.mp4")}
-        autoPlay
-        muted
-        loop
-        width="1903"
-        height="467"
-        className={styles.video}
-      />
+        <video
+          src={require("../../public/home/home2.mp4")}
+          autoPlay
+          muted
+          loop
+          width="1903"
+          height="467"
+          className={`${styles.video}`}
+        />
+      <div className="relaive">
+        <div className='absolute z-10 2xl:top-[18vw] text-white'>
+          <div className='2xl:pl-[13vw]'>
+
+          <h1 className='bebas 2xl:text-[3vw] '>{t.rich("school-name", {
+           br: () => <br />,
+         })}</h1>
+         <Button variant='trans' className='sub-font mr-4'>{t('news')}</Button>
+         <Button variant='trans' className='sub-font'>{t('ris-history')}</Button>
+          </div>
+        </div>
+      </div>
       <div className='bg-[#E5E9EF]'>
         <Image src='/home/bg.svg' className='w-full pointer-events-none absolute' width={1440} height={467} alt={''} />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
@@ -45,7 +60,7 @@ export default function Home() {
           <RecentNews />
         </main>
       </div>
-      {/* <div className='h-20'> */}
+      {/* <div className='h-20'>
         <ul className="results">
           <li className="result">
             <a href="#"><img src="https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;h=500&amp;ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY2MjEyMDE3MQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;utm_campaign=api-credit&amp;utm_medium=referral&amp;utm_source=unsplash_source&amp;w=500" width="500" height="500" alt="" /></a>
@@ -84,7 +99,7 @@ export default function Home() {
             <a href="#"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;h=500&amp;ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY2MjEyMDE5OQ&amp;ixlib=rb-1.2.1&amp;q=80&amp;utm_campaign=api-credit&amp;utm_medium=referral&amp;utm_source=unsplash_source&amp;w=500" width="500" height="500" alt="" /></a>
           </li>
         </ul>
-      {/* </div> */}
+      </div> */}
     </div>
   )
 }

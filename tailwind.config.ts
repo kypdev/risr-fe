@@ -78,6 +78,9 @@ const config = {
       backgroundImage: {
         'hero-pattern': "url('/img/hero-pattern.svg')",
         'footer-texture': "url('/footer/footer-bg.png')",
+      },
+      fontFamily: {
+        bebas: ['var(--font-bebas-neue)']
       }
     },
   },

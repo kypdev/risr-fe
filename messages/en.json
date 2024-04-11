@@ -42,5 +42,10 @@
     "facilities": "FACILITIES",
     "facilities-details": "RIS Ratchapruek is located in Bang Kruai, Nonthaburi. Our purpose-built campus is located near Ratchapruek Road, about 20 kilometers north of Bangkok and west of the Chao Praya River. Separate buildings for each section, dedicated classrooms, community space, indoor and outdoor playgrounds, a soft-play motor room, and swimming pool for Middle and High School, as well as a swimming pool designed for our youngest learners, students ages 2-5 are given a gentle introduction to school in a warm and caring environment.<br></br><br></br>Our secondary building is currently being constructed. The secondary building will house our middle school and high school programs.",
     "school-map": "SCHOOL MAP"
+  },
+  "Home": {
+    "school-name": "RUAMRUDEE INTERNATIONAL SCHOOL<br></br>RATCHAPRUEK CAMPUS",
+    "news": "NEWS",
+    "ris-history": "RIS HISTORY"
   }
 }

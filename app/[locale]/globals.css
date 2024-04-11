@@ -73,9 +73,24 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 
-  
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-bebas)
+}
+
+.font-bebas {
+  font-family: var(--font-bebas)
+}
+
+.sub-font {
+  font-family: var(--font-avenir);
 }

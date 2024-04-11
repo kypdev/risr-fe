@@ -5,7 +5,7 @@ type ContentTextProps = {
 
 const ContentText = ({text}: ContentTextProps) => {
   return (
-    <div className='2xl:text-[2vw]'>{text}</div>
+    <p className='2xl:text-[vw]'>{text}</p>
   )
 }
 

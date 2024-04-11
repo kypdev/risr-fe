@@ -41,6 +41,7 @@ export default function Home() {
             >
               {data.map((item) => (
                 <img
+                  key={item.id}
                   className='w-[688px] h-[852px] inline-block p-0 cursor-pointer hover:scale-105 ease-in-out duration-300'
                   src={item.img}
                   alt='/'

@@ -35,9 +35,9 @@ const Navbar = () => {
             <p className={NavbarStyles.menu}>{t('portals')}</p>
           </div>
           <div className="flex flex-row justify-between font-bebas px-[2vw]">
-            <p className={`${NavbarStyles.menu} pl-4`} style={{fontSize: '2vw'}}>STUDENT LIFE</p>
-            <p className={NavbarStyles.menu} style={{fontSize: '2vw'}}>COMMUNITY</p>
-            <p className={NavbarStyles.menu} style={{fontSize: '2vw'}}>LINKS</p>
+            <Link href='#' className={`${NavbarStyles.menu} pl-4`} style={{fontSize: '2vw'}}>STUDENT LIFE</Link>
+            <Link href='#' className={NavbarStyles.menu} style={{fontSize: '2vw'}}>COMMUNITY</Link>
+            <Link href='#' className={NavbarStyles.menu} style={{fontSize: '2vw'}}>LINKS</Link>
           </div>
         </div>
       </div>

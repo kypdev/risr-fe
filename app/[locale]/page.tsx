@@ -16,8 +16,8 @@ export default function Home() {
           muted
           loop
           width="1903"
-          height="467"
-          className={`${styles.video}`}
+          height="367"
+          className={`${styles.video} 2xl:h-[20vw] xl:h-[32.5vw] 2xl:2-[40vw]`}
         />
       <div className="relaive">
         <div className='absolute z-10 2xl:top-[18vw] text-white'>

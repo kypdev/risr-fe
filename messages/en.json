@@ -47,5 +47,10 @@
     "school-name": "RUAMRUDEE INTERNATIONAL SCHOOL<br></br>RATCHAPRUEK CAMPUS",
     "news": "NEWS",
     "ris-history": "RIS HISTORY"
+  },
+  "Tuition": {
+    "title": "TUITION & FEES",
+    "click-below": "Click below to view a link or download a PDF:",
+    "content": "Tuition & Fees 2022–2023"
   }
 }

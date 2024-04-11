@@ -1,11 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
+import Banner from '@/components/Banner'
+import { useTranslations } from 'next-intl'
+import ChildrenLayout from '@/components/ChildrenLayout'
+import Title from '@/components/Title'
+import Link from 'next/link'
+import { TuitionLinks, Utils } from '@/constrant'
 
 const Page = () => {
+  const t = useTranslations('Tuition')
   return (
-    <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-      <Image src='/tuition/img1.svg' className='w-full py-4 pointer-events-none z-10 pt-32 pb-32' width={1440} height={467} alt={''} />
-    </main>
+    <>
+      <Banner img='/tuition/banner.svg' title={t('title')} />
+      <ChildrenLayout>
+        <Title title={t('click-below')} />
+        <Link href={TuitionLinks.tuition} target={Utils.newTab} className='pt-[2vw]'><p className='font-bold 2xl:text-[2vw]'>{t('content')} &#8594;</p></Link>
+      </ChildrenLayout>
+    </>
   )
 }
 

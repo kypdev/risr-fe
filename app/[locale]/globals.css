@@ -109,6 +109,10 @@ h3 {
   font-family: var(--font-avenir);
 }
 
+p {
+  font-family: var(--font-avenir);
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }

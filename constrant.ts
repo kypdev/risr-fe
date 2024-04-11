@@ -7,4 +7,12 @@ const SchoolMapLinks = {
   map: 'https://maps.app.goo.gl/HGvUnCqTt3PRR4Uj8?g_st=ic'
 }
 
-export {NavbarLink, SchoolMapLinks}
+const TuitionLinks = {
+  tuition: 'https://www.rism.ac.th/wp-content/uploads/2022/02/Tuition-Fees-2022-2023.pdf'
+}
+
+const Utils = {
+  newTab: '_blank'
+}
+
+export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils}

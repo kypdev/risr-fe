@@ -26,6 +26,7 @@ const config = {
         foreground: "hsl(var(--foreground))",
         iconhover: "#079315",
         icondefault: "#3B6EAF",
+        line: '#1C355E',
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

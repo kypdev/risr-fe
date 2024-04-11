@@ -4,28 +4,18 @@ import Image from "next/image"
 import styles from './style.module.css'
 import { data } from './mockData'
 
-
-const AnyReactComponent = ({ text }: any) => <div>{text}</div>
-
 export default function Home() {
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627
-    },
-    zoom: 11
-  }
   return (
     <div className='bg-grey'>
-      {/* <video
-        src={require("../../public/home.mp4")}
+      <video
+        src={require("../../public/home/home2.mp4")}
         autoPlay
         muted
         loop
         width="1903"
         height="467"
         className={styles.video}
-      /> */}
+      />
       <div className='bg-[#E5E9EF]'>
         <Image src='/home/bg.svg' className='w-full pointer-events-none absolute' width={1440} height={467} alt={''} />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>

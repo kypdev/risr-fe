@@ -49,7 +49,7 @@
 .video {
   position: relative;
   z-index: -1;
-  height: 467px;
+  height: 617px;
   width: 100%;
   object-fit: cover;
 }

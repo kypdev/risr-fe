@@ -17,7 +17,7 @@ export default function Home() {
   }
   return (
     <div className='bg-grey'>
-      <video
+      {/* <video
         src={require("../../public/home.mp4")}
         autoPlay
         muted
@@ -25,7 +25,7 @@ export default function Home() {
         width="1903"
         height="467"
         className={styles.video}
-      />
+      /> */}
       <div className='bg-[#E5E9EF]'>
         <Image src='/home/bg.svg' className='w-full pointer-events-none absolute' width={1440} height={467} alt={''} />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>

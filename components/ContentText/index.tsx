@@ -1,5 +1,5 @@
 type ContentTextProps = {
-  text: string
+  text: string | any
 }
 
 const ContentText = ({ text }: ContentTextProps) => {

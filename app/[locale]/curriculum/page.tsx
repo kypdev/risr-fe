@@ -1,17 +1,28 @@
-import React from 'react'
-import Image from 'next/image'
+import Banner from '@/components/Banner'
+import ChildrenLayout from '@/components/ChildrenLayout'
+import RecentNews from '@/components/RecentNews'
+import SubRichTextNextLine from '@/components/SubRichTextNextLine'
+import Title from '@/components/Title'
+import { BannerUrl } from '@/constrant'
+import { useTranslations } from 'next-intl'
 
 const Page = () => {
+  const t = useTranslations('Curriculum')
+  const lang = {
+    title: t('title'),
+    curriculumContent: t.rich(t('curriculum-content'), {
+      br: () => <br />,
+    }),
+  }
   return (
-    <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-      <Image
-        src='/curriculum/img1.svg'
-        className='w-full py-4 pointer-events-none z-10 pt-32 pb-32'
-        width={1440}
-        height={467}
-        alt={''}
-      />
-    </main>
+    <>
+      <Banner img={BannerUrl.curriculum} title={lang.title} />
+      <ChildrenLayout>
+        <Title title={lang.title} />
+        <SubRichTextNextLine langKey='Curriculum.curriculum-content' />
+        <RecentNews />
+      </ChildrenLayout>
+    </>
   )
 }
 

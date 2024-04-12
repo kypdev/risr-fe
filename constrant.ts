@@ -15,4 +15,8 @@ const Utils = {
   newTab: '_blank'
 }
 
-export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils}
+const BannerUrl = {
+  curriculum: '/curriculum/banner.svg'
+}
+
+export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl}

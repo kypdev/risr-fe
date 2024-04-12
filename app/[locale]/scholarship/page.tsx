@@ -12,7 +12,6 @@ const Page = () => {
       <Banner img={'/scholarship/banner.svg'} title={t('title')} />
       <ChildrenLayout>
         <Title title={t('scholarship')} />
-        <SubRichText text={t('content')} />
         <RecentNews />
       </ChildrenLayout>
     </>

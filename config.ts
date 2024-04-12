@@ -1,16 +1,16 @@
-import { Pathnames } from 'next-intl/navigation';
+import { Pathnames } from 'next-intl/navigation'
 
-export const locales = ['en', 'de'] as const;
+export const locales = ['en', 'de'] as const
 
 export const pathnames = {
   '/': '/',
   '/pathnames': {
     en: '/pathnames',
-    de: '/pfadnamen'
-  }
-} satisfies Pathnames<typeof locales>;
+    de: '/pfadnamen',
+  },
+} satisfies Pathnames<typeof locales>
 
 // Use the default: `always`
-export const localePrefix = undefined;
+export const localePrefix = undefined
 
-export type AppPathnames = keyof typeof pathnames;
+export type AppPathnames = keyof typeof pathnames

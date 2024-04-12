@@ -1,17 +1,21 @@
-import React from 'react'
-import Image from 'next/image'
+import Banner from '@/components/Banner'
+import ChildrenLayout from '@/components/ChildrenLayout'
+import RecentNews from '@/components/RecentNews'
+import SubRichText from '@/components/SubRichText'
+import Title from '@/components/Title'
+import { useTranslations } from 'next-intl'
 
 const Page = () => {
+  const t = useTranslations('Scholarship')
   return (
-    <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-      <Image
-        src='/sholarship/img1.svg'
-        className='w-full py-4 pointer-events-none z-10 pt-32 pb-32'
-        width={1440}
-        height={467}
-        alt={''}
-      />
-    </main>
+    <>
+      <Banner img={'/scholarship/banner.svg'} title={t('title')} />
+      <ChildrenLayout>
+        <Title title={t('scholarship')} />
+        <SubRichText text={t('content')} />
+        <RecentNews />
+      </ChildrenLayout>
+    </>
   )
 }
 

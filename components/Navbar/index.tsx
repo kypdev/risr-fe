@@ -75,10 +75,26 @@ const Navbar = () => {
         </Link>
         <div className='flex flex-col w-full 2xl:pl-[2vw]'>
           <div className='flex flex-row justify-between sub-font'>
-            <p className={`${NavbarStyles.menu} pl-4 hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('news')}</p>
-            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('school-calendar')}</p>
-            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('work-risr')}</p>
-            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('portals')}</p>
+            <p
+              className={`${NavbarStyles.menu} pl-4 hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
+              {t('news')}
+            </p>
+            <p
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
+              {t('school-calendar')}
+            </p>
+            <p
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
+              {t('work-risr')}
+            </p>
+            <p
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
+              {t('portals')}
+            </p>
           </div>
           <div className='flex flex-row justify-between font-bebas px-[2vw]'>
             <Link

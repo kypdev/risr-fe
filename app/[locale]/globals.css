@@ -122,3 +122,7 @@ p {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.menu-underline {
+  @apply hover:underline hover:underline-offset-8 decoration-[#6badda]
+}

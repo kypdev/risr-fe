@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 import NavbarStyles from './Navbar.module.css'
+import { cn } from '@/lib/utils'
 
 const Navbar = () => {
   const t = useTranslations('Navbar')
@@ -14,20 +15,30 @@ const Navbar = () => {
       <div className='absolute flex flex-row justify-center w-full px-20 sm:hidden xl:flex'>
         <div className='flex flex-col w-full 2xl:pr-[1vw]'>
           <div className='flex flex-row justify-between sub-font'>
-            <Link href={NavbarLink.apply} className={NavbarStyles.menu}>
+            <Link
+              href={NavbarLink.apply}
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
               {t('apply')}
             </Link>
             <Link
               href={NavbarLink.bookATour}
               target='_blank'
-              className={NavbarStyles.menu}
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >
               {t('book-tour')}
             </Link>
-            <Link className={NavbarStyles.menu} href={'/en/school-map'}>
+            <Link
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+              href={'/en/school-map'}
+            >
               {t('school-map')}
             </Link>
-            <p className={`${NavbarStyles.menu}`}>{t('contact-us')}</p>
+            <p
+              className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
+            >
+              {t('contact-us')}
+            </p>
           </div>
           <div className='flex flex-row justify-between font-bebas px-[2vw] text-[100px]'>
             <Link
@@ -64,10 +75,10 @@ const Navbar = () => {
         </Link>
         <div className='flex flex-col w-full 2xl:pl-[2vw]'>
           <div className='flex flex-row justify-between sub-font'>
-            <p className={`${NavbarStyles.menu} pl-4`}>{t('news')}</p>
-            <p className={NavbarStyles.menu}>{t('school-calendar')}</p>
-            <p className={NavbarStyles.menu}>{t('work-risr')}</p>
-            <p className={NavbarStyles.menu}>{t('portals')}</p>
+            <p className={`${NavbarStyles.menu} pl-4 hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('news')}</p>
+            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('school-calendar')}</p>
+            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('work-risr')}</p>
+            <p className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}>{t('portals')}</p>
           </div>
           <div className='flex flex-row justify-between font-bebas px-[2vw]'>
             <Link

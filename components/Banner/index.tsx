@@ -11,7 +11,7 @@ const Banner = ({ img, title }: BannerProps) => {
     <div className='flex flex-row w-full justify-center items-center'>
       <Image
         src={img}
-        className='w-full pointer-events-none 2xl:h-[32.1.5vw]'
+        className='w-full pointer-events-none 2xl:h-[32.1.vw]'
         width={1440}
         height={467}
         alt={''}

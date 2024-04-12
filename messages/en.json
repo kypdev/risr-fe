@@ -46,7 +46,8 @@
   "Home": {
     "school-name": "RUAMRUDEE INTERNATIONAL SCHOOL<br></br>RATCHAPRUEK CAMPUS",
     "news": "NEWS",
-    "ris-history": "RIS HISTORY"
+    "ris-history": "RIS HISTORY",
+    "view-all-news": "View all news"
   },
   "Tuition": {
     "title": "TUITION & FEES",
@@ -56,7 +57,7 @@
   "Scholarship": {
     "title": "SCHOLARSHIPS",
     "scholarship": "SCHOLARSHIP",
-    "content": "RISR offers scholarships that support the school's mission while recognizing student achievement — excellence in and out of the classroom and demonstrated leadership. The school awards a variety of scholarships on a competitive basis to incoming and current to exceptional students each year. We also provide need-based financial assistance to qualified families. For more information, please contact the the RISR Admissions Office at: ",
+    "content": "RISR offers scholarships that support the school's mission while recognizing student achievement — excellence in and out of the classroom and demonstrated leadership. The school awards a variety of scholarships on a competitive basis to incoming and current to exceptional students each year. We also provide need-based financial assistance to qualified families. For more information, please contact the the RISR Admissions Office at:  ",
     "email": "admissions@risr.ac.th"
   },
   "Curriculum": {

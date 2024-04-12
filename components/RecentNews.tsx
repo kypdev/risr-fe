@@ -1,6 +1,9 @@
 import Image from 'next/image'
+import { Button } from './ui/button'
+import { useTranslations } from 'next-intl'
 
 const RecentNews = () => {
+  const t = useTranslations('Home')
   return (
     <>
       <Image
@@ -10,6 +13,9 @@ const RecentNews = () => {
         height={249}
         alt=''
       />
+      <div className='flex flex-row justify-center'>
+        <Button variant='transblue' className='2xl:text-[1vw] px-[6vw] py-[1.5vw]'>{t('view-all-news')}</Button>
+      </div>
     </>
   )
 }

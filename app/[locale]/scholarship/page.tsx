@@ -19,7 +19,7 @@ const Page = () => {
             <a
               href='mailto:admissions@risr.ac.th?body=My custom mail body"'
               target={Utils.newTab}
-              className='font-bold text-[#1C355E]'
+              className='font-bold text-[#1C355E] underline underline-offset-4'
             >
               {t('email')}
             </a>

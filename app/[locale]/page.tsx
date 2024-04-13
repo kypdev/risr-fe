@@ -109,7 +109,6 @@ export default function Home() {
             RECENT&nbsp;NEWS
           </p>
           <hr className={`${styles.solidHr}`} />
-          <RecentNews />
         </main>
       </div>
     </div>

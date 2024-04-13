@@ -66,7 +66,6 @@ export default function Home() {
             <Title title={t('studen-learner')} hasLine={false} />
             <StudenLearner />
           </div>
-          <RecentNews />
         </div>
       </div>
     </div>

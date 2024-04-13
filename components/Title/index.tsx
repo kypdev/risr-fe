@@ -1,6 +1,6 @@
 type TitleProps = {
   title: string
-  hasLine: boolean
+  hasLine: true | false
 }
 
 const Title = ({ title, hasLine }: TitleProps) => {

@@ -63,7 +63,6 @@ const Page = () => {
           RECENT&nbsp;NEWS
         </p>
         <hr className={`${styles.solidHr}`} />
-        <RecentNews />
       </div>
     </>
   )

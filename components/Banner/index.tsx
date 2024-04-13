@@ -18,7 +18,7 @@ const Banner = ({ img, title }: BannerProps) => {
       />
       <div className='absolute'>
         {title ? (
-          <p className='text-white font-bebas 2xl:text-[8vw]'>{title}</p>
+          <p className='text-white font-bebas text-[7vw]'>{title}</p>
         ) : null}
       </div>
     </div>

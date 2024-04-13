@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 const RecentNews = () => {
   const t = useTranslations('Home')
   return (
-    <>
+    <div className='py-[2vw]'>
       <Image
         className='flex flex-row w-full py-8 pointer-events-none'
         src='/recent-news.svg'
@@ -16,7 +16,7 @@ const RecentNews = () => {
       <div className='flex flex-row justify-center'>
         <Button variant='transblue' className='2xl:text-[1vw] px-[6vw] py-[1.5vw]'>{t('view-all-news')}</Button>
       </div>
-    </>
+    </div>
   )
 }
 

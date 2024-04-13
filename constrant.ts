@@ -23,6 +23,7 @@ const BannerUrl = {
   leadership: '/leadership/banner.svg',
   elementarySchool: '/elementary/banner.svg',
   history: '/history/banner.svg',
+  preK: '/pre-k/banner.svg',
 }
 
 export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl}

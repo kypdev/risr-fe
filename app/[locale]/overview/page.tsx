@@ -105,7 +105,7 @@ const Page = () => {
         </YoutubeContent>
 
         {contentText.map((v: any, index) => {
-          return <TitleAndSub title={v.title} sub={v.sub} />
+          return <TitleAndSub key={index} title={v.title} sub={v.sub} />
         })}
 
         <div className={`py-8`}>

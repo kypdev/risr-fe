@@ -22,8 +22,8 @@ const CampusList = ({ sub1, img, campus }: CampusListProps) => {
           <div className='pt-[2vw] flex flex-row items-center'>
             <Image src='/leadership/hat.svg' width={56} height={56} alt={''} className='' />
             <div className='pl-[1vw]'>
-              <p className='font-bold'>{v.title}</p>
-              <p className='text-[#2E2E2E] font-[300]'>{v.sub}</p>
+              <p className='font-bold' key={index}>{v.title}</p>
+              <p className='text-[#2E2E2E] font-[300]' key={index}>{v.sub}</p>
             </div>
           </div>
         ))}

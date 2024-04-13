@@ -1,18 +1,19 @@
 const NavbarLink = {
   apply: '/en/apply',
-  bookATour: 'https://rism.openapply.com/events/new'
+  bookATour: 'https://rism.openapply.com/events/new',
 }
 
 const SchoolMapLinks = {
-  map: 'https://maps.app.goo.gl/HGvUnCqTt3PRR4Uj8?g_st=ic'
+  map: 'https://maps.app.goo.gl/HGvUnCqTt3PRR4Uj8?g_st=ic',
 }
 
 const TuitionLinks = {
-  tuition: 'https://www.rism.ac.th/wp-content/uploads/2022/02/Tuition-Fees-2022-2023.pdf'
+  tuition:
+    'https://www.rism.ac.th/wp-content/uploads/2022/02/Tuition-Fees-2022-2023.pdf',
 }
 
 const Utils = {
-  newTab: '_blank'
+  newTab: '_blank',
 }
 
 const BannerUrl = {
@@ -24,6 +25,7 @@ const BannerUrl = {
   elementarySchool: '/elementary/banner.svg',
   history: '/history/banner.svg',
   preK: '/pre-k/banner.svg',
+  middleSchool: '/middle-school/banner.svg',
 }
 
-export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl}
+export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl }

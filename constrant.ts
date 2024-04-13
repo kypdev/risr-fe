@@ -17,7 +17,8 @@ const Utils = {
 
 const BannerUrl = {
   curriculum: '/curriculum/banner.svg',
-  extended: '/extended/banner.svg'
+  extended: '/extended/banner.svg',
+  overview: '/overview/banner.svg'
 }
 
 export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl}

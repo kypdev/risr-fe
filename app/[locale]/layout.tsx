@@ -46,7 +46,7 @@ export default function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
-          <CookieConsent />
+          {/* <CookieConsent /> */}
           <Footer />
         </NextIntlClientProvider>
       </body>

@@ -19,7 +19,7 @@ const CampusList = ({ sub1, img, campus }: CampusListProps) => {
           })}
         </p>
         {campus.map((v: any, index: any) => (
-          <div className='pt-[2vw] flex flex-row items-center'>
+          <div key={index} className='pt-[2vw] flex flex-row items-center'>
             <Image src='/leadership/hat.svg' width={56} height={56} alt={''} className='' />
             <div className='pl-[1vw]'>
               <p className='font-bold' key={index}>{v.title}</p>

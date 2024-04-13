@@ -18,7 +18,7 @@ const Page = () => {
     <>
       <Banner img={BannerUrl.curriculum} title={lang.title} />
       <ChildrenLayout>
-        <Title title={lang.title} />
+        <Title title={lang.title} hasLine={true}/>
         <SubRichTextNextLine langKey='Curriculum.curriculum-content' />
         <RecentNews />
       </ChildrenLayout>

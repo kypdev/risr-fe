@@ -13,7 +13,7 @@ const Page = () => {
     <>
       <Banner img='/tuition/banner.svg' title={t('title')} />
       <ChildrenLayout>
-        <Title title={t('click-below')} />
+        <Title title={t('click-below')} hasLine={true } />
         <Link
           href={TuitionLinks.tuition}
           target={Utils.newTab}

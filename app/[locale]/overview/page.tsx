@@ -116,7 +116,7 @@ const Page = () => {
         </div>
 
         {contentTextBottom.map((v: any, index) => {
-          return <TitleAndSub title={v.title} sub={v.sub} />
+          return <TitleAndSub title={v.title} sub={v.sub} key={index} />
         })}
 
         <YoutubeContent>

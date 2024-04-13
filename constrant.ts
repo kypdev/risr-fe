@@ -21,7 +21,8 @@ const BannerUrl = {
   overview: '/overview/banner.svg',
   vision: '/vision/banner.svg',
   leadership: '/leadership/banner.svg',
-  elementarySchool: '/elementary/banner.svg'
+  elementarySchool: '/elementary/banner.svg',
+  history: '/history/banner.svg',
 }
 
 export {NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl}

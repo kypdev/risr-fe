@@ -1,18 +1,15 @@
-'use client'
-
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import Title from '@/components/Title'
 import { Button } from '@/components/ui/button'
 import { BannerUrl } from '@/constrant'
+import { useTranslations } from 'next-intl'
 import React from 'react'
-import { useTranslations } from 'use-intl'
 import Image from 'next/image'
-import Head from 'next/head'
 
-// export const metadata = {
-//   title: 'Middle SCHOOL'
-// }
+export const metadata = {
+  title: 'Middle SCHOOL'
+}
 
 const Page = () => {
   const t = useTranslations('MiddleSchool')

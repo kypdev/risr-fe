@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
+'use client'
+
 import Banner from '@/components/Banner'
-import { useTranslations } from 'next-intl'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import Title from '@/components/Title'
-import Link from 'next/link'
 import { TuitionLinks, Utils } from '@/constrant'
+import { useTranslations } from 'next-intl'
+import Link from 'next/link'
 
 export const metadata = {
   title: 'Tuition & Fees'

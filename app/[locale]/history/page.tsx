@@ -1,3 +1,5 @@
+'use client'
+
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import Title from '@/components/Title'

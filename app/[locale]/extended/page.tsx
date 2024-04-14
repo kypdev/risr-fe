@@ -1,10 +1,10 @@
+'use client'
+
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
-import SubRichTextNextLine from '@/components/SubRichTextNextLine'
 import { Button } from '@/components/ui/button'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
-import Image from 'next/image'
 
 const Page = () => {
   const t = useTranslations('Extended')

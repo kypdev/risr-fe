@@ -1,11 +1,10 @@
 'use client'
 
-import RecentNews from '@/components/RecentNews'
-import Image from 'next/image'
-import styles from './style.module.css'
-import { data } from './mockData'
-import { useTranslations } from 'next-intl'
 import { Button } from '@/components/ui/button'
+import { useTranslations } from 'next-intl'
+import Image from 'next/image'
+import { data } from './mockData'
+import styles from './style.module.css'
 
 export default function Home() {
   const t = useTranslations('Home')

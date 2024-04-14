@@ -1,3 +1,5 @@
+'use client'
+
 import RecentNews from '@/components/RecentNews'
 import React from 'react'
 import styles from './style.module.css'

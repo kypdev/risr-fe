@@ -1,9 +1,7 @@
-'use client'
+// 'use client'
 
-import RecentNews from '@/components/RecentNews'
-import React from 'react'
-import styles from './style.module.css'
 import Image from 'next/image'
+import styles from './style.module.css'
 
 export const metadata = {
   title: 'Apply Now & How to Apply'

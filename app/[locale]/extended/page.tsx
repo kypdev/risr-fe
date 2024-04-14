@@ -1,10 +1,14 @@
-'use client'
+// 'use client'
 
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import { Button } from '@/components/ui/button'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
+
+export const metadata = {
+  title: 'EDPs'
+}
 
 const Page = () => {
   const t = useTranslations('Extended')

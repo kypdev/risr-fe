@@ -1,6 +1,5 @@
-'use client'
+// 'use client'
 
-import RecentNews from '@/components/RecentNews'
 import { SchoolMapLinks } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'

@@ -8,10 +8,11 @@ import { BannerUrl } from '@/constrant'
 import React from 'react'
 import { useTranslations } from 'use-intl'
 import Image from 'next/image'
+import Head from 'next/head'
 
-export const metadata = {
-  title: 'Middle SCHOOL'
-}
+// export const metadata = {
+//   title: 'Middle SCHOOL'
+// }
 
 const Page = () => {
   const t = useTranslations('MiddleSchool')

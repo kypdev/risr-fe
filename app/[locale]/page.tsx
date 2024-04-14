@@ -1,10 +1,14 @@
-'use client'
+// 'use client'
 
 import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { data } from './mockData'
 import styles from './style.module.css'
+
+export const metadata = {
+  title: 'Home'
+}
 
 export default function Home() {
   const t = useTranslations('Home')

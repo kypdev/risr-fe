@@ -83,7 +83,7 @@ const Page = () => {
             />
           </>
         ))}
-        <Title title={t('header2')} hasLine />
+        <Title title={t('header2')} hasLine className='text-[#6CB2E2] border-[#6CB2E2]' />
         {hands.map((v: ContentData, index) => (
           <>
             <ContentArea
@@ -91,10 +91,11 @@ const Page = () => {
               title={v.title}
               desciption={v.description}
               key={index}
+              className='text-[#6CB2E2]'
             />
           </>
         ))}
-        <Title title={t('header3')} hasLine />
+        <Title title={t('header3')} hasLine className='text-[#D1252B] border-[#D1252B]'/>
         {heart.map((v: ContentData, index) => (
           <>
             <ContentArea
@@ -102,6 +103,7 @@ const Page = () => {
               title={v.title}
               desciption={v.description}
               key={index}
+              className='text-[#D1252B]'
             />
           </>
         ))}

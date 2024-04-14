@@ -8,7 +8,7 @@ import ChildrenLayout from '../ChildrenLayout'
 const Footer = () => {
   const t = useTranslations('Footer')
   return (
-    <>
+    <div className='bg-bg'>
       <ChildrenLayout>
         <RecentNews />
       </ChildrenLayout>
@@ -19,7 +19,7 @@ const Footer = () => {
         height={562}
         alt={''}
       />
-    </>
+    </div>
   )
 }
 

@@ -17,6 +17,10 @@ import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import React, { Children } from 'react'
 
+export const metadata = {
+  title: 'Contact us'
+}
+
 const Page = () => {
   const t = useTranslations('Contact')
   return (

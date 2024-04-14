@@ -28,7 +28,8 @@ const BannerUrl = {
   middleSchool: '/middle-school/banner.svg',
   highSchool: '/high-school/banner.svg',
   schoolWide: '/school-wide/banner.svg',
-  contact: '/contact/banner.svg'
+  contact: '/contact/banner.svg',
+  calendar: '/calendar/banner.svg'
 }
 
 export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl }

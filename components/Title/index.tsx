@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils'
 
 type TitleProps = {
   title: string
-  hasLine: true | false
+  hasLine?: boolean
   className?: any
 }
 

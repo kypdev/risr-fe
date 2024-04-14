@@ -28,6 +28,7 @@ const config = {
         icondefault: "#3B6EAF",
         line: '#1C355E',
         sub: '#2E2E2E',
+        bg: '#E5E9EF',
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",

@@ -260,12 +260,25 @@
     "desc8": "They understand that their own actions impact the quality of their life.  They assess situations to help make the right choices.  They understand how intellectual, emotional and physical well being play a part in creating a balanced lifestyle.<br></br><br></br>They know that what they do affects how good they feel. They look at things carefully to make good decisions. They also know that taking care of their mind, heart, and body helps them live a good and balanced life.",
     "title9": "HELP OTHERS",
     "desc9": "They understand that they are individuals and agents of change within a greater community and work to achieve success for the greater whole.  They know that sometimes they must put others before themselves for the common good.   They seek opportunities to assist and guide others toward success with empathy and kindness.<br></br><br></br>They know they're part of a bigger group and try to make things better for everyone. They understand that sometimes it's important to help others even if it means not thinking only about themselves. They look for chances to help and show others the way to do well.",
-    "header3": "HEART & VALUES",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": ""
+    "header3": "HEART & VALUES"
+  },
+  "Contact": {
+    "header": "CONTACT",
+    "address": "Address",
+    "address-sub1": "Ruamrudee International School Ratchapruek Campus<br></br>999 Moo 4 Bang Kruai-Sai Noi Road, Bang Krang<br></br>Nonthaburi, Nonthaburi 11000 Thailand",
+    "address-sub2": "โรงเรียนร่วมฤดีวิเทศศึกษา ราชพฤกษ์ แคมปัส<br></br>999 หมู่ 4 ถนนบางกรวย–ไทรน้อย<br></br>ตำบล บางกร่าง อำเภอ เมืองนนทบุรี จังหวัด นนทบุรี 11000 ",
+    "phone": "PHONE",
+    "phone-sub": "Telephone: <b>+66 (0)2 030 0533</b>",
+    "contact-form": "CONTACT FORM",
+    "name": "Name ",
+    "email": "Email",
+    "telephone": "Telephone",
+    "subject": "Subject",
+    "comment": "Comment",
+    "select1": "General Inquiries",
+    "select2": "Admissions",
+    "select3": "Employment",
+    "select4": "Others",
+    "submit": "Submit"
   }
 }

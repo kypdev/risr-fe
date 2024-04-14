@@ -4,7 +4,10 @@ import TitleAndSub from '@/components/TitleAndSub'
 import YoutubeContent from '@/components/YoutubeContent'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
-import React from 'react'
+
+export const metadata = {
+  title: 'Overview'
+}
 
 const Page = () => {
   const t = useTranslations('Overview')
@@ -45,12 +48,6 @@ const Page = () => {
     <>
       <Banner img={BannerUrl.overview} title={t('title')} />
       <ChildrenLayout>
-        {/* <p>
-          {t.rich('test', {
-            b: (chunks) => <b className='text-[#1C355E]'>{chunks}</b>,
-          })}
-        </p> */}
-
         <div className='flex flex-col'>
           <div className='flex flex-row'>
             <TitleAndSub title={t('established')} sub={t('established-sub')} />
@@ -110,9 +107,15 @@ const Page = () => {
 
         <div className={`py-8`}>
           <h1 className='text-[3vw] text-line '>{t('ratio-teaching')}</h1>
-          <p className='text-sub text-[1.5vw] pt-[2vw]'>&nbsp; &#x2022; {t('ratio-teaching-sub1')}</p>
-          <p className='text-sub text-[1.5vw] pt-[2vw]'>&nbsp; &#x2022; {t('ratio-teaching-sub2')}</p>
-          <p className='text-sub text-[1.5vw] pt-[2vw]'>&nbsp; &#x2022; {t('ratio-teaching-sub3')}</p>
+          <p className='text-sub text-[1.5vw] pt-[2vw]'>
+            &nbsp; &#x2022; {t('ratio-teaching-sub1')}
+          </p>
+          <p className='text-sub text-[1.5vw] pt-[2vw]'>
+            &nbsp; &#x2022; {t('ratio-teaching-sub2')}
+          </p>
+          <p className='text-sub text-[1.5vw] pt-[2vw]'>
+            &nbsp; &#x2022; {t('ratio-teaching-sub3')}
+          </p>
         </div>
 
         {contentTextBottom.map((v: any, index) => {

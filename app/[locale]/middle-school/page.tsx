@@ -9,6 +9,10 @@ import React from 'react'
 import { useTranslations } from 'use-intl'
 import Image from 'next/image'
 
+export const metadata = {
+  title: 'Middle SCHOOL'
+}
+
 const Page = () => {
   const t = useTranslations('MiddleSchool')
   return (

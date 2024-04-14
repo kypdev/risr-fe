@@ -3,9 +3,11 @@ import ChildrenLayout from '@/components/ChildrenLayout'
 import Title from '@/components/Title'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
-import Image from 'next/image'
-import React from 'react'
 import CampusList from './CampusList'
+
+export const metadata = {
+  title: 'Leadership Team'
+}
 
 const Page = () => {
   const t = useTranslations('Leadership')

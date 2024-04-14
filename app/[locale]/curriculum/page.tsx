@@ -1,10 +1,13 @@
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
-import RecentNews from '@/components/RecentNews'
 import SubRichTextNextLine from '@/components/SubRichTextNextLine'
 import Title from '@/components/Title'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
+
+export const metadata = {
+  title: 'Curriculum'
+}
 
 const Page = () => {
   const t = useTranslations('Curriculum')

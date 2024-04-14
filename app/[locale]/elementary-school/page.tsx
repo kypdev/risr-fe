@@ -7,6 +7,10 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import React from 'react'
 
+export const metadata = {
+  title: 'ELEMENTARY SCHOOL'
+}
+
 const Page = () => {
   const t = useTranslations('Elementary')
   return (
@@ -61,9 +65,19 @@ const Page = () => {
           })}
         </p>
         <div className='pt-[2vw]'>
-          <p>{t.rich('sub4', {
-            a: (c) => <a className='font-bold text-[#1C355E]' href='https://docs.google.com/document/d/1_XvkORa5rMUxhqtdUqSc6CN2e96NcyucAzNUcU0Hoko/edit' target='_blank'>{c}</a>
-          })}</p>
+          <p>
+            {t.rich('sub4', {
+              a: (c) => (
+                <a
+                  className='font-bold text-[#1C355E]'
+                  href='https://docs.google.com/document/d/1_XvkORa5rMUxhqtdUqSc6CN2e96NcyucAzNUcU0Hoko/edit'
+                  target='_blank'
+                >
+                  {c}
+                </a>
+              ),
+            })}
+          </p>
         </div>
       </ChildrenLayout>
     </>

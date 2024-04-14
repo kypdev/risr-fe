@@ -7,6 +7,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './style.module.css'
 
+export const metadata = {
+  title: 'School Map & Facilities'
+}
+
 const Page = () => {
   const t = useTranslations('School-map')
   return (

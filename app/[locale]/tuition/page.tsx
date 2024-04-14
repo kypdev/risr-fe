@@ -7,6 +7,10 @@ import Title from '@/components/Title'
 import Link from 'next/link'
 import { TuitionLinks, Utils } from '@/constrant'
 
+export const metadata = {
+  title: 'Tuition & Fees'
+}
+
 const Page = () => {
   const t = useTranslations('Tuition')
   return (

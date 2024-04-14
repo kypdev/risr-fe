@@ -7,7 +7,10 @@ import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import StudenLearner from './StudenLearner'
-import RecentNews from '@/components/RecentNews'
+
+export const metadata = {
+  title: 'Vision & Mission'
+}
 
 export default function Home() {
   const t = useTranslations('Vision')

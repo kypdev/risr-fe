@@ -1,6 +1,6 @@
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
-import { BannerUrl } from '@/constrant'
+import { BannerUrl, CalendarLinks } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
@@ -13,10 +13,19 @@ const Page = () => {
   return (
     <div className='bg-bg'>
       <Banner img={BannerUrl.calendar} title={t('header')} />
+      <div>
+        <iframe
+          src='https://drive.google.com/file/d/13KeKRPhd1zYOMcuFwFuk85tIuWyjyYkG/preview'
+          width='640'
+          height='480'
+          allow='autoplay'
+          className='w-[40vw] h-[50vw]'
+        ></iframe>
+      </div>
       <ChildrenLayout>
         <iframe
-        src='https://calendar.google.com/calendar/u/0/embed?color=%23f83a22&src=c_0c6a95842a3d4ab337e58a9c7c308d00980a7e48afec2d562b59ab53390fdc5a@group.calendar.google.com'
-        className='h-[50vw] mt-[2vw]'
+          src={CalendarLinks.calendar}
+          className='h-[50vw] mt-[2vw]'
         ></iframe>
       </ChildrenLayout>
     </div>

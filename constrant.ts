@@ -12,6 +12,11 @@ const TuitionLinks = {
     'https://www.rism.ac.th/wp-content/uploads/2022/02/Tuition-Fees-2022-2023.pdf',
 }
 
+const CalendarLinks = {
+  calendar: 'https://calendar.google.com/calendar/u/0/embed?color=%23f83a22&src=c_0c6a95842a3d4ab337e58a9c7c308d00980a7e48afec2d562b59ab53390fdc5a@group.calendar.google.com',
+  test: 'https://calendar.google.com/calendar/u/0?cid=Z29kZGFubnkxOUBnbWFpbC5jb20'
+}
+
 const Utils = {
   newTab: '_blank',
 }
@@ -32,4 +37,4 @@ const BannerUrl = {
   calendar: '/calendar/banner.svg'
 }
 
-export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl }
+export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl, CalendarLinks }

@@ -282,22 +282,9 @@
     "submit": "Submit"
   },
   "Calendar": {
-    "header": "School Calendar",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": "",
-    "": ""
+    "header": "School Calendar"
+  },
+  "PersonalData": {
+    "header": "PERSONAL DATA POLICY"
   }
 }

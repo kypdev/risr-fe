@@ -5,16 +5,23 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { FaLine } from 'react-icons/fa'
 import IconLine from './IconLine'
-import "./styles.css";
+import './styles.css'
 
 type BannerProps = {
   img: string
   title?: string
   isButtonElemantary?: boolean
   isContact?: boolean
+  isPersonalData?: boolean
 }
 
-const Banner = ({ img, title, isButtonElemantary, isContact }: BannerProps) => {
+const Banner = ({
+  img,
+  title,
+  isButtonElemantary,
+  isContact,
+  isPersonalData,
+}: BannerProps) => {
   return (
     <div className='flex flex-row w-full justify-center items-center'>
       <Image
@@ -51,6 +58,13 @@ const Banner = ({ img, title, isButtonElemantary, isContact }: BannerProps) => {
               <div className='ml-[1vw] hover:fill-red-500'>
                 <IconLine />
               </div>
+            </Button>
+          </div>
+        ) : null}
+        {isPersonalData ? (
+          <div className='flex flex-row justify-center'>
+            <Button variant='trans' className='text-white px-[2vw] py-[1.3vw]'>
+              Download
             </Button>
           </div>
         ) : null}

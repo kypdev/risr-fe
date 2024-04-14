@@ -17,6 +17,10 @@ const CalendarLinks = {
   test: 'https://calendar.google.com/calendar/u/0?cid=Z29kZGFubnkxOUBnbWFpbC5jb20'
 }
 
+const PersonalData = {
+  docs: 'https://docs.google.com/document/d/1zS1mBFScneDc2BxFLovb_VzOwxRD4zq9XZp8N-Pe9T4/edit?usp=sharing&rm=minimal'
+}
+
 const Utils = {
   newTab: '_blank',
 }
@@ -34,7 +38,8 @@ const BannerUrl = {
   highSchool: '/high-school/banner.svg',
   schoolWide: '/school-wide/banner.svg',
   contact: '/contact/banner.svg',
-  calendar: '/calendar/banner.svg'
+  calendar: '/calendar/banner.svg',
+  personalDataPolicy: '/personal-data-policy/banner.svg'
 }
 
-export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl, CalendarLinks }
+export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl, CalendarLinks, PersonalData }

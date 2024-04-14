@@ -80,7 +80,7 @@ const Page = () => {
           <p className='text-[#D1252B]'>&nbsp;*</p>
         </div>
         <Textarea className='h-[10vw]' />
-        <Button variant='trans' className='text-line mt-[2vw]'>{t('submit')}</Button>
+        <Button variant='transblue' className='text-[#416BA9] mt-[2vw]'>{t('submit')}</Button>
       </ChildrenLayout>
     </div>
   )

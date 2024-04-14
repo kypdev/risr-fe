@@ -39,7 +39,8 @@ const BannerUrl = {
   schoolWide: '/school-wide/banner.svg',
   contact: '/contact/banner.svg',
   calendar: '/calendar/banner.svg',
-  personalDataPolicy: '/personal-data-policy/banner.svg'
+  personalDataPolicy: '/personal-data-policy/banner.svg',
+  workAtRisr: '/work-at-risr/banner.svg'
 }
 
 export { NavbarLink, SchoolMapLinks, TuitionLinks, Utils, BannerUrl, CalendarLinks, PersonalData }

@@ -4,7 +4,7 @@ import ChildrenLayout from '@/components/ChildrenLayout'
 import { BannerUrl, PersonalData } from '@/constrant'
 import { useTranslations } from 'next-intl'
 
-const Home = () => {
+const Page = () => {
   const t = useTranslations('PersonalData')
   return (
     <div className='bg-bg'>
@@ -23,4 +23,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Page

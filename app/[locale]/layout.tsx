@@ -1,13 +1,11 @@
-import type { Metadata } from 'next'
-import { Inter, Bebas_Neue } from 'next/font/google'
-import './globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import { NextIntlClientProvider, useMessages } from 'next-intl'
-import local from 'next/font/local'
 import CookieConsent from '@/components/CookiesConsent'
-
-const inter = Inter({ subsets: ['latin'] })
+import Footer from '@/components/Footer'
+import Navbar from '@/components/Navbar'
+import type { Metadata } from 'next'
+import { NextIntlClientProvider, useMessages } from 'next-intl'
+import { Bebas_Neue } from 'next/font/google'
+import local from 'next/font/local'
+import './globals.css'
 
 const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
@@ -41,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${inter.className} ${bebasNeue.variable} ${avenir.variable}`}
+        className={`${bebasNeue.variable} ${avenir.variable}`}
       >
         <NextIntlClientProvider messages={messages}>
           <Navbar />

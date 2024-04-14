@@ -1,10 +1,8 @@
-// 'use client'
-
 import Image from 'next/image'
 import styles from './style.module.css'
 
 export const metadata = {
-  title: 'Apply Now & How to Apply'
+  title: 'Apply Now & How to Apply',
 }
 
 const Page = () => {

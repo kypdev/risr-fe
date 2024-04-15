@@ -3,21 +3,19 @@
 import { useState } from 'react'
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io'
 
-type AccordionProps = {
+type AccordionEdpsProps = {
   title: string
   subTitle: string
   description: string[]
   isSubTitle?: boolean
-  isWorkRisr?: boolean
 }
 
-const Accordion = ({
+const AccordionEdps = ({
   title,
   subTitle,
   description,
   isSubTitle,
-  isWorkRisr,
-}: AccordionProps) => {
+}: AccordionEdpsProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false)
   return (
     <div className='py-2'>
@@ -45,18 +43,14 @@ const Accordion = ({
             : 'grid-rows-[0fr] opacity-0'
         }`}
       >
-        {isWorkRisr
-          ? description.map((v, i) => (
-              <ul key={i}
-                className='overflow-hidden 2xl:ml-16 2xl:text-2xl'
-              >
-                <li key={i}>- {v}</li>
-              </ul>
-            ))
-          : null}
+        {description.map((v, i) => (
+          <ul className='overflow-hidden 2xl:ml-16 2xl:text-2xl list-disc'>
+            <li key={i}>{v}</li>
+          </ul>
+        ))}
       </div>
     </div>
   )
 }
 
-export default Accordion
+export default AccordionEdps

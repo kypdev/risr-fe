@@ -1,9 +1,14 @@
+import Accordion from '@/components/Accordion'
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import Title from '@/components/Title'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+
+export const metadata = {
+  title: 'Work At RISR'
+}
 
 const Page = () => {
   const t = useTranslations('WorkAtRisr')
@@ -56,6 +61,31 @@ const Page = () => {
           </div>
         </div>
         <Title title={t('title3')} hasLine />
+        <Accordion
+          title={'aa'}
+          subTitle={'bb'}
+          description={['a', 'b']}
+          isWorkRisr
+        />
+        <Accordion
+          title={'aa'}
+          subTitle={'bb'}
+          description={['a', 'b']}
+          isWorkRisr
+        />
+        <Accordion
+          title={'aa'}
+          subTitle={'bb'}
+          description={['a', 'b']}
+          isWorkRisr
+        />
+        <div className='flex flex-row justify-center text-center'>
+          <p className=''>
+            {t.rich('sub20', {
+              br: () => <br />,
+            })}
+          </p>
+        </div>
       </ChildrenLayout>
     </div>
   )

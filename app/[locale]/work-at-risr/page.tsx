@@ -4,7 +4,6 @@ import Title from '@/components/Title'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import { AccordionDemo } from './AccdContent'
 
 const Page = () => {
   const t = useTranslations('WorkAtRisr')
@@ -57,7 +56,6 @@ const Page = () => {
           </div>
         </div>
         <Title title={t('title3')} hasLine />
-        <AccordionDemo />
       </ChildrenLayout>
     </div>
   )

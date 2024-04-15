@@ -44,7 +44,7 @@ const AccordionEdps = ({
         }`}
       >
         {description.map((v, i) => (
-          <ul className='overflow-hidden 2xl:ml-16 2xl:text-2xl list-disc'>
+          <ul key={i} className='overflow-hidden 2xl:ml-16 2xl:text-2xl list-disc'>
             <li key={i}>{v}</li>
           </ul>
         ))}

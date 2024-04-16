@@ -11,16 +11,16 @@ type IDetails = {
 
 type AccordionEdpsProps = {
   title: string
-  subTitle: string
-  description: any
-  isSubTitle?: boolean
+  subTitle: any
+  desc: any
   detail: IDetails[]
 }
 
 const AccordionEdps = ({
   title,
   subTitle,
-  description,
+  // description,
+  desc,
   detail,
 }: AccordionEdpsProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false)
@@ -51,14 +51,17 @@ const AccordionEdps = ({
         }`}
       >
         <div className='overflow-hidden 2xl:ml-8 2xl:text-2xl'>
-          <div className='mb-8'>{description}</div>
+          <div className='mb-8'>
+            <span className='font-bebas text-line text-bold'>{t('acd-desc1')}</span>
+            <p className='mt-4 text-black'>{desc}</p>
+          </div>
           {detail?.map((v, i) => (
             <span key={i} className='flex flex-row justify-start'>
               <div>
                 <span className='2xl:text-2xl font-bebas text-line'>
                   {t(v.title)}
                 </span>
-                <span className='align-baseline 2xl:text-3xl 2xl:ml-3 sub-font text-black'>
+                <span className='align-baseline 2xl:text-3xl 2xl:ml-3 sub-font text-[#212121]]'>
                   {t(v.desc)}
                 </span>
               </div>

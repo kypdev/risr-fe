@@ -13,13 +13,13 @@ const AccordionList = () => {
         <AccordionEdps
           key={i}
           title={t(v.title)}
-          subTitle={t(v.subTitle)}
-          description={t.rich(v.desc, {
+          subTitle={t.rich(v.subTitle, {
             br: () => <br />,
-            b: (c) => <b className='text-line'>{c}</b>,
-            span: (c) => <span className='text-black sub-font'>{c}</span>
           })}
           detail={v.detail}
+          desc={t.rich(v.desc, {
+            br: () => <br />,
+          })}
         />
       ))}
     </div>

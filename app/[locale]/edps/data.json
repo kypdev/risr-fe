@@ -2,7 +2,7 @@
   {
     "title": "acd-title1",
     "subTitle": "acd-sub-title1",
-    "desc": "acd-desc1",
+    "desc": "acd-sub-desc1",
     "detail": [
       {
         "title": "acd-detail-title1",
@@ -13,7 +13,7 @@
         "desc": "acd-detail-desc2"
       },
       {
-        "title": "acd-detail-title3",
+        "title": "acd-price-title",
         "desc": "acd-detail-desc3"
       }
     ]
@@ -21,7 +21,7 @@
   {
     "title": "acd-title-ballet",
     "subTitle": "acd-sub-title-ballet",
-    "desc": "acd-desc-ballet",
+    "desc": "acd-sub-desc-ballet",
     "detail": [
       {
         "title": "acd-instructor-title",
@@ -30,6 +30,640 @@
       {
         "title": "acd-price-title",
         "desc": "acd-price-desc"
+      }
+    ]
+  },
+  {
+    "title": "acd-title-guitar",
+    "subTitle": "acd-sub-title-guitar",
+    "desc": "acd-guitar-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-guitar-detail1"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-guitar-detail2"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-guitar-detail3"
+      }
+    ]
+  },
+  {
+    "title": "acd-thai-title",
+    "subTitle": "acd-thai-sub-title",
+    "desc": "acd-thai-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-thai-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-thai-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-thai-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-bord-game-title",
+    "subTitle": "acd-bord-game-sub-title",
+    "desc": "acd-bord-game-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-bord-game-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-bord-game-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-bord-game-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-chess-title",
+    "subTitle": "acd-chess-sub-title",
+    "desc": "acd-chess-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-chess-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-chess-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-chess-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-chess-mark-title",
+    "subTitle": "acd-chess-mark-sub-title",
+    "desc": "acd-chess-mark-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-chess-mark-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-chess-mark-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-chess-mark-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-chess4kidz-title",
+    "subTitle": "acd-chess4kidz-sub-title",
+    "desc": "acd-chess4kidz-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-chess4kidz-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-chess4kidz-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-chess4kidz-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-creative-writing-title",
+    "subTitle": "acd-creative-writing-sub-title",
+    "desc": "acd-creative-writing-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-creative-writing-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-creative-writing-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-creative-writing-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-dance-title",
+    "subTitle": "acd-dance-sub-title",
+    "desc": "acd-dance-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-dance-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-dance-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-doctor-title",
+    "subTitle": "acd-doctor-sub-title",
+    "desc": "acd-doctor-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-doctor-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-doctor-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-doctor-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-dot-painting-title",
+    "subTitle": "acd-dot-painting-sub-title",
+    "desc": "acd-dot-painting-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-dot-painting-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-dot-painting-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-dot-painting-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-drama-title",
+    "subTitle": "acd-drama-sub-title",
+    "desc": "acd-drama-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-drama-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-drama-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-drama-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-dream-title",
+    "subTitle": "acd-dream-sub-title",
+    "desc": "acd-dream-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-dream-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-dream-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-dream-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-erc-title",
+    "subTitle": "acd-erc-sub-title",
+    "desc": "acd-erc-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-erc-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-erc-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-erc-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-es-choir-title",
+    "subTitle": "acd-es-choir-sub-title",
+    "desc": "acd-es-choir-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-es-choir-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-es-choir-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-es-choir-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-explorative-dance-title",
+    "subTitle": "acd-explorative-dance-sub-title",
+    "desc": "acd-explorative-dance-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-explorative-dance-inst"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-explorative-dance-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-edesign-title",
+    "subTitle": "acd-edesign-sub-title",
+    "desc": "acd-edesign-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-edesign-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-edesign-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-edesign-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-esport-title",
+    "subTitle": "acd-esport-sub-title",
+    "desc": "acd-esport-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-esport-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-esport-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-esport-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-inline-skating-title",
+    "subTitle": "acd-inline-skating-sub-title",
+    "desc": "acd-inline-skating-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-inline-skating-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-inline-skating-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-inline-skating-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-japanese-beginer-title",
+    "subTitle": "acd-japanese-beginer-sub-title",
+    "desc": "acd-japanese-beginer-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-japanese-beginer-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-japanese-beginer-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-japanese-beginer-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-japanese-native-title",
+    "subTitle": "acd-japanese-native-sub-title",
+    "desc": "acd-japanese-native-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-japanese-native-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-japanese-native-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-japanese-native-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-junior-inventor-title",
+    "subTitle": "acd-junior-inventor-sub-title",
+    "desc": "acd-junior-inventor-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-junior-inventor-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-junior-inventor-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-junior-inventor-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-makerspace-stem-title",
+    "subTitle": "acd-makerspace-stem-sub-title",
+    "desc": "acd-makerspace-stem-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-makerspace-stem-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-makerspace-stem-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-makerspace-stem-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-mathemagic-title",
+    "subTitle": "acd-mathemagic-sub-title",
+    "desc": "acd-mathemagic-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-mathemagic-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-mathemagic-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-mathemagic-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-mobile-app-development-title",
+    "subTitle": "acd-mobile-app-development-sub-title",
+    "desc": "acd-mobile-app-development-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-mobile-app-development-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-mobile-app-development-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-mobile-app-development-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-muaythai-title",
+    "subTitle": "acd-muaythai-sub-title",
+    "desc": "acd-muaythai-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-muaythai-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-muaythai-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-muaythai-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-music-movement-title",
+    "subTitle": "acd-music-movement-sub-title",
+    "desc": "acd-music-movement-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-music-movement-inst"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-music-movement-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-parkour-title",
+    "subTitle": "acd-parkour-sub-title",
+    "desc": "acd-parkour-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-parkour-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-parkour-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-parkour-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-public-speaking-title",
+    "subTitle": "acd-public-speaking-sub-title",
+    "desc": "acd-public-speaking-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-public-speaking-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-public-speaking-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-public-speaking-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-storytelling-title",
+    "subTitle": "acd-storytelling-sub-title",
+    "desc": "acd-storytelling-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-storytelling-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-storytelling-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-storytelling-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-rubik-cube-title",
+    "subTitle": "acd-rubik-cube-sub-title",
+    "desc": "acd-rubik-cube-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-rubik-cube-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-rubik-cube-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-rubik-cube-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-surfskate-training-title",
+    "subTitle": "acd-surfskate-training-sub-title",
+    "desc": "acd-surfskate-training-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-surfskate-training-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-surfskate-training-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-surfskate-training-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-table-tennis-title",
+    "subTitle": "acd-table-tennis-sub-title",
+    "desc": "acd-table-tennis-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-table-tennis-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-table-tennis-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-table-tennis-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-taekwondo-title",
+    "subTitle": "acd-taekwondo-sub-title",
+    "desc": "acd-taekwondo-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-taekwondo-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-taekwondo-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-taekwondo-price"
+      }
+    ]
+  },
+  {
+    "title": "acd-young-pilot-title",
+    "subTitle": "acd-young-pilot-sub-title",
+    "desc": "acd-young-pilot-desc",
+    "detail": [
+      {
+        "title": "acd-instructor-title",
+        "desc": "acd-young-pilot-inst"
+      },
+      {
+        "title": "acd-detail-title2",
+        "desc": "acd-young-pilot-std"
+      },
+      {
+        "title": "acd-price-title",
+        "desc": "acd-young-pilot-price"
       }
     ]
   }

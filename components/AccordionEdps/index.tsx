@@ -3,39 +3,43 @@
 import { useState } from 'react'
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io'
 
-type AccordionEdpsProps = {
+type IDetails = {
   title: string
+  desc: string
+}
+
+type AccordionEdpsProps = {
+  title: any
   subTitle: string
-  description: string[]
+  description: any
   isSubTitle?: boolean
+  detail: IDetails[]
 }
 
 const AccordionEdps = ({
   title,
   subTitle,
   description,
-  isSubTitle,
+  detail,
 }: AccordionEdpsProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false)
   return (
-    <div className='py-2'>
+    <div className='2xl:py-8'>
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className='flex justify-between w-full items-center 2xl:px-16'
+        className='flex justify-between w-full items-center 2xl:px-8'
       >
-        <div className='flex flex-col items-center'>
-          <h1 className='2xl:text-[4rem] text-line'>{title}</h1>
-          {isSubTitle ? (
-            <span className='text-slate-700'>{subTitle}</span>
-          ) : null}
+        <div className='flex flex-col items-start text-start'>
+          <h1 className='2xl:text-[2rem] text-line font-medium'>{title}</h1>
+          <span className='text-slate-700 2xl:pb-8'>{subTitle}</span>
         </div>
         {accordionOpen ? (
-          <IoIosArrowUp className='text-slate-600' />
+          <IoIosArrowUp className='text-line scale-150' />
         ) : (
-          <IoIosArrowDown className='text-slate-600' />
+          <IoIosArrowDown className='text-line scale-150' />
         )}
       </button>
-      <hr className='bg-black h-[2px] w-full' />
+      <hr className='bg-black h-[2px] w-full mb-4' />
       <div
         className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
           accordionOpen
@@ -43,11 +47,17 @@ const AccordionEdps = ({
             : 'grid-rows-[0fr] opacity-0'
         }`}
       >
-        {description.map((v, i) => (
-          <ul key={i} className='overflow-hidden 2xl:ml-16 2xl:text-2xl list-disc'>
-            <li key={i}>{v}</li>
-          </ul>
-        ))}
+        <div className='overflow-hidden 2xl:ml-8 2xl:text-2xl'>
+          <div className='mb-8'>{description}</div>
+          {detail?.map((v, i) => (
+            <span key={i} className='flex flex-row justify-start'>
+              <span className='2xl:text-2xl font-bebas'>{v.title}</span>
+              <span className='2xl:text-2xl scale-125 2xl:ml-10 sub-font'>
+                {v.desc}
+              </span>
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   )

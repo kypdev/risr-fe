@@ -104,10 +104,12 @@ h3 {
 
 .sub-font {
   font-family: var(--font-avenir);
+  font-weight: 300;
 }
 
 p {
   font-family: var(--font-avenir);
+  font-weight: 300;
 }
 
 .scrollbar-hide::-webkit-scrollbar {

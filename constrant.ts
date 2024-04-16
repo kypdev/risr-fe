@@ -14,7 +14,8 @@ const TuitionLinks = {
 
 const CalendarLinks = {
   calendar: 'https://calendar.google.com/calendar/u/0/embed?color=%23f83a22&src=c_0c6a95842a3d4ab337e58a9c7c308d00980a7e48afec2d562b59ab53390fdc5a@group.calendar.google.com',
-  test: 'https://calendar.google.com/calendar/u/0?cid=Z29kZGFubnkxOUBnbWFpbC5jb20'
+  calendar2: 'https://calendar.google.com/calendar/u/0/embed?color=%23fad165&src=c_1cb8542ea479bcc7f2fd3debd67252adb9a358d4e52b5f8da378c8b25f0b7cb9@group.calendar.google.com',
+  calendar3: 'https://calendar.google.com/calendar/u/0/embed?color=%237bd148&src=c_5f946a65a6e286cab40b17eb6012d9a9bb882d5cb54b375223215d6400a584f5@group.calendar.google.com'
 }
 
 const PersonalData = {

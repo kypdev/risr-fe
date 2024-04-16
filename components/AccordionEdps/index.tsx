@@ -1,5 +1,6 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { IoIosArrowUp, IoIosArrowDown } from 'react-icons/io'
 
@@ -9,7 +10,7 @@ type IDetails = {
 }
 
 type AccordionEdpsProps = {
-  title: any
+  title: string
   subTitle: string
   description: any
   isSubTitle?: boolean
@@ -23,6 +24,8 @@ const AccordionEdps = ({
   detail,
 }: AccordionEdpsProps) => {
   const [accordionOpen, setAccordionOpen] = useState(false)
+  const t = useTranslations('Extended')
+
   return (
     <div className='2xl:py-8'>
       <button
@@ -30,8 +33,8 @@ const AccordionEdps = ({
         className='flex justify-between w-full items-center 2xl:px-8'
       >
         <div className='flex flex-col items-start text-start'>
-          <h1 className='2xl:text-[2rem] text-line font-medium'>{title}</h1>
-          <span className='text-slate-700 2xl:pb-8'>{subTitle}</span>
+          <p className='2xl:text-[2rem] text-line font-bold'>{title}</p>
+          <span className='text-[#212121] 2xl:pb-8'>{subTitle}</span>
         </div>
         {accordionOpen ? (
           <IoIosArrowUp className='text-line scale-150' />
@@ -51,10 +54,14 @@ const AccordionEdps = ({
           <div className='mb-8'>{description}</div>
           {detail?.map((v, i) => (
             <span key={i} className='flex flex-row justify-start'>
-              <span className='2xl:text-2xl font-bebas'>{v.title}</span>
-              <span className='2xl:text-2xl scale-125 2xl:ml-10 sub-font'>
-                {v.desc}
-              </span>
+              <div>
+                <span className='2xl:text-2xl font-bebas text-line'>
+                  {t(v.title)}
+                </span>
+                <span className='align-baseline 2xl:text-3xl 2xl:ml-3 sub-font text-black'>
+                  {t(v.desc)}
+                </span>
+              </div>
             </span>
           ))}
         </div>

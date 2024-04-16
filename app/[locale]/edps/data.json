@@ -5,31 +5,31 @@
     "desc": "acd-desc1",
     "detail": [
       {
-        "title": "title detail 1",
-        "desc": "Description detail 1"
+        "title": "acd-detail-title1",
+        "desc": "acd-detail-desc1"
       },
       {
-        "title": "title detail 2",
-        "desc": "Description detail 2"
+        "title": "acd-detail-title2",
+        "desc": "acd-detail-desc2"
       },
       {
-        "title": "title detail 3",
-        "desc": "Description detail 3"
+        "title": "acd-detail-title3",
+        "desc": "acd-detail-desc3"
       }
     ]
   },
   {
-    "title": "Title",
-    "subTitle": "SubTitle",
-    "desc": "Description",
+    "title": "acd-title-ballet",
+    "subTitle": "acd-sub-title-ballet",
+    "desc": "acd-desc-ballet",
     "detail": [
       {
-        "title": "title detail 1",
-        "desc": "Description detail 1"
+        "title": "acd-instructor-title",
+        "desc": "acd-instructor-desc"
       },
       {
-        "title": "title detail 2",
-        "desc": "Description detail 2"
+        "title": "acd-price-title",
+        "desc": "acd-price-desc"
       }
     ]
   }

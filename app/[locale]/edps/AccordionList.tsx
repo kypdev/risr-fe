@@ -1,24 +1,23 @@
 'use client'
+
+import AccordionEdps from '@/components/AccordionEdps'
 import { useTranslations } from 'next-intl'
 import Data from './data.json'
-import React, { useEffect } from 'react'
-import AccordionEdps from '@/components/AccordionEdps'
 
 const AccordionList = () => {
   const t = useTranslations('Extended')
-  useEffect(() => {
-    console.log('accordion arr', Data)
-  }, [])
+
   return (
     <div>
       {Data.map((v, i) => (
         <AccordionEdps
           key={i}
           title={t(v.title)}
-          subTitle={v.subTitle}
+          subTitle={t(v.subTitle)}
           description={t.rich(v.desc, {
             br: () => <br />,
-            b: (c) => <b>{c}</b>,
+            b: (c) => <b className='text-line'>{c}</b>,
+            span: (c) => <span className='text-black sub-font'>{c}</span>
           })}
           detail={v.detail}
         />

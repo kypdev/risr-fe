@@ -14,9 +14,14 @@ const AccordionList = () => {
       {Data.map((v, i) => (
         <AccordionEdps
           key={i}
-          title={v.title}
+          title={t(v.title)}
           subTitle={v.subTitle}
-          description={v.desc} detail={v.detail}        />
+          description={t.rich(v.desc, {
+            br: () => <br />,
+            b: (c) => <b>{c}</b>,
+          })}
+          detail={v.detail}
+        />
       ))}
     </div>
   )

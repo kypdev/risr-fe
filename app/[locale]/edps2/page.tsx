@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl'
 const test = ['sub5', 'sub6', 'sub7', 'sub8', 'sub9', 'sub10']
 
 export const metadata = {
-  title: 'EDPs',
+  title: 'EDPs2',
 }
 
 const Page = () => {

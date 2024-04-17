@@ -45,7 +45,7 @@ const Page = () => {
               <div key={i} className='flex flex-col my-[4vw]'>
                 <span className='sub-font text-[1.8rem]'>{v.title}</span>
                 <div className='flex flex-row'>
-                  <ul style={{listStyleType: 'square'}} className='pl-6'>
+                  <ul style={{ listStyleType: 'square' }} className='pl-6'>
                     <li>
                       <Link
                         href={v.link}

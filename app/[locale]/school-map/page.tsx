@@ -1,10 +1,9 @@
-// 'use client'
-
-import { SchoolMapLinks } from '@/constrant'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from './style.module.css'
+import Banner from '@/components/Banner'
+import { BannerUrl } from '@/constrant'
+import Title from '@/components/Title'
 
 export const metadata = {
   title: 'School Map & Facilities',
@@ -13,17 +12,10 @@ export const metadata = {
 const Page = () => {
   const t = useTranslations('School-map')
   return (
-    <>
-      <Image
-        src='/school-map/banner.png'
-        className='w-full'
-        width={1440}
-        height={467}
-        alt={''}
-      />
+    <div className='bg-bg'>
+      <Banner img={BannerUrl.schoolMap} title={t('header')} isSchoolMap />
       <div className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-        <h1 className='text-5xl text-[#1C355E] my-10 w-1'>{t('facilities')}</h1>
-        <hr className={`${styles.solidHr}`} />
+        <Title title={t('title1')} hasLine />
         <p className='mt-4'>
           {t.rich('facilities-details', {
             br: () => <br />,
@@ -66,7 +58,7 @@ const Page = () => {
         </p>
         <hr className={`${styles.solidHr}`} />
       </div>
-    </>
+    </div>
   )
 }
 

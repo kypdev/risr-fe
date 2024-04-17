@@ -8,17 +8,15 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
-  SelectValue,
+  SelectValue
 } from '@/components/ui/select'
 import { Textarea } from '@/components/ui/textarea'
 import { BannerUrl } from '@/constrant'
 import { useTranslations } from 'next-intl'
-import React, { Children } from 'react'
 
 export const metadata = {
-  title: 'Contact us'
+  title: 'Contact us',
 }
 
 const Page = () => {
@@ -84,7 +82,9 @@ const Page = () => {
           <p className='text-[#D1252B]'>&nbsp;*</p>
         </div>
         <Textarea className='h-[10vw]' />
-        <Button variant='transblue' className='text-[#416BA9] mt-[2vw]'>{t('submit')}</Button>
+        <Button variant='transblue' className='text-[#416BA9] mt-[2vw]'>
+          {t('submit')}
+        </Button>
       </ChildrenLayout>
     </div>
   )

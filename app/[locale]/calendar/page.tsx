@@ -14,7 +14,7 @@ const Page = () => {
   const t = useTranslations('Calendar')
   return (
     <div className='bg-bg'>
-      <Banner img={BannerUrl.calendar} title={t('header')} />
+      <Banner img={BannerUrl.calendar} title={t('header')} isSchoolCalendar />
       <div className='flex flex-row justify-center 2xl:my-16'>
         <a
           href='https://drive.google.com/file/d/13KeKRPhd1zYOMcuFwFuk85tIuWyjyYkG/view'

@@ -38,8 +38,12 @@
     "personal-data-policy": "Personal Data Policy",
     "copyright": " 2024 Ruamrudee International School Ratchapruek campus"
   },
+  "Apply": {
+    "header": "How to Apply"
+  },
   "School-map": {
-    "facilities": "FACILITIES",
+    "header": "FACILITIES",
+    "title1": "FACILITIES",
     "facilities-details": "RIS Ratchapruek is located in Bang Kruai, Nonthaburi. Our purpose-built campus is located near Ratchapruek Road, about 20 kilometers north of Bangkok and west of the Chao Praya River. Separate buildings for each section, dedicated classrooms, community space, indoor and outdoor playgrounds, a soft-play motor room, and swimming pool for Middle and High School, as well as a swimming pool designed for our youngest learners, students ages 2-5 are given a gentle introduction to school in a warm and caring environment.<br></br><br></br>Our secondary building is currently being constructed. The secondary building will house our middle school and high school programs.",
     "school-map": "SCHOOL MAP"
   },
@@ -590,5 +594,8 @@
     "sub19": "* All documents should be combined into a single PDF file and emailed to recruitment2024@risr.ac.th.",
     "title3": "SCHOOL YEAR 2024-2025",
     "sub20": "Interested candidates are requested to submit the following:<br></br>Resume or CV<br></br>A copy of credential and diploma<br></br>Link to blog or professional website, if applicable<br></br>Name and contact information of at least two references<br></br>Please indicate if you are a candidate on GRC, Search, or ISS<br></br>* All documents should be combined into a single PDF file and emailed to recruitment2024@risr.ac.th. *"
+  },
+  "News": {
+    "header": "NEWS"
   }
 }

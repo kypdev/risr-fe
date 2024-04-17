@@ -10,6 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        schoolCalendar: "bg-transparent border-2 border-white text-primary-foreground hover: rounded-full",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
@@ -18,7 +19,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        trans: 'bg-transparent border-2 border-white w-[156px] rounded-full',
+        trans: 'bg-transparent border-2 border-white w-[156px] rounded-full px-10',
         transblue: 'bg-transparent border-2 border-[#416BA9] w-[156px] rounded-full text-[#416BA9] py-[2vw] px-[2vw]',
         blue: 'bg-[#416BA9] border-2 border-[#416BA9] w-[156px] rounded-full text-[#fff] py-[2vw] px-[2vw]',
       },

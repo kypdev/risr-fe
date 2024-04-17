@@ -1,21 +1,19 @@
 import Image from 'next/image'
 import styles from './style.module.css'
+import Banner from '@/components/Banner'
+import { BannerUrl } from '@/constrant'
+import { useTranslations } from 'next-intl'
 
 export const metadata = {
   title: 'Apply Now & How to Apply',
 }
 
 const Page = () => {
+  const t = useTranslations('Apply')
   return (
-    <>
-      <Image
-        src='/school-map/banner.png'
-        className='w-full'
-        width={1440}
-        height={467}
-        alt={''}
-      />
-      <div className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
+    <div className='bg-bg'>
+      <Banner img={BannerUrl.apply} title={t('header')} isApply />
+      <div className='flex flex-col mx-40 sm:mx-0 lg:mx-40 mt-16'>
         <Image
           src='/apply/img1.svg'
           className='w-full pointer-events-none'
@@ -64,7 +62,7 @@ const Page = () => {
         </p>
         <hr className={`${styles.solidHr}`} />
       </div>
-    </>
+    </div>
   )
 }
 

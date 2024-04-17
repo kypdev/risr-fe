@@ -5,7 +5,6 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
 import NavbarStyles from './Navbar.module.css'
-import { cn } from '@/lib/utils'
 
 const Navbar = () => {
   const t = useTranslations('Navbar')
@@ -30,15 +29,16 @@ const Navbar = () => {
             </Link>
             <Link
               className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
-              href={'/en/school-map'}
+              href={NavbarLink.schoolMap}
             >
               {t('school-map')}
             </Link>
-            <p
+            <Link
+              href={NavbarLink.contact}
               className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >
               {t('contact-us')}
-            </p>
+            </Link>
           </div>
           <div className='flex flex-row justify-between font-bebas px-[2vw] text-[100px]'>
             <Link
@@ -75,21 +75,24 @@ const Navbar = () => {
         </Link>
         <div className='flex flex-col w-full 2xl:pl-[2vw]'>
           <div className='flex flex-row justify-between sub-font'>
-            <p
+            <Link
+              href={NavbarLink.news}
               className={`${NavbarStyles.menu} pl-4 hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >
               {t('news')}
-            </p>
-            <p
+            </Link>
+            <Link
+              href={NavbarLink.schoolCalendar}
               className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >
               {t('school-calendar')}
-            </p>
-            <p
+            </Link>
+            <Link
+              href={NavbarLink.workAtRisr}
               className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >
               {t('work-risr')}
-            </p>
+            </Link>
             <p
               className={`${NavbarStyles.menu} hover:underline hover:underline-offset-8 decoration-[#6badda]`}
             >

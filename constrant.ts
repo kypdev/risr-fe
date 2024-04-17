@@ -1,6 +1,11 @@
 const NavbarLink = {
   apply: '/en/apply',
-  bookATour: 'https://rism.openapply.com/events/new',
+  bookATour: 'https://risr.openapply.com/events/new?only=tours',
+  schoolMap: '/en/school-map',
+  contact: '/en/contact',
+  news: '/en/news',
+  schoolCalendar: '/en/school-calendar',
+  workAtRisr: '/en/work-at-risr',
 }
 
 const SchoolMapLinks = {

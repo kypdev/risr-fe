@@ -1,13 +1,12 @@
-// 'use client'
-
 import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { data } from './mockData'
 import styles from './style.module.css'
+import TimelineCarousel from '@/components/TimelineCarousel'
 
 export const metadata = {
-  title: 'Home'
+  title: 'Home',
 }
 
 export default function Home() {
@@ -81,26 +80,12 @@ export default function Home() {
           />
           <Image
             src='/home/img7.svg'
-            className='w-full py-4 pointer-events-none z-10 pt-32 pb-32'
+            className='w-full py-4 pointer-events-none z-10 my-8'
             width={1440}
             height={467}
             alt={''}
           />
-          <div className='relative flex items-center'>
-            <div
-              id='slider'
-              className='w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth no-scrollbar scrollbar-hide'
-            >
-              {data.map((item) => (
-                <img
-                  key={item.id}
-                  className='w-[688px] h-[852px] inline-block p-0 cursor-pointer hover:scale-105 ease-in-out duration-300'
-                  src={item.img}
-                  alt='/'
-                />
-              ))}
-            </div>
-          </div>
+          <TimelineCarousel data={data} />
           <Image
             src='/home/img4.svg'
             className='w-full py-4 pointer-events-none z-10'

@@ -98,6 +98,7 @@ const Navbar = () => {
             >
               {t('portals')}
             </p>
+            <p>Portals</p>
           </div>
           <div className='flex flex-row justify-between font-bebas px-[2vw]'>
             <Link

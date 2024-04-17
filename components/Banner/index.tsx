@@ -96,10 +96,16 @@ const Banner = ({
         ) : null}
         {isSchoolCalendar ? (
           <div className='flex flex-row justify-center'>
-            <Button variant='schoolCalendar' className='text-white sub-font mr-8 px-10 text-[1.5rem] py-6'>
+            <Button
+              variant='schoolCalendar'
+              className='text-white sub-font mr-8 px-10 text-[1.5rem] py-6'
+            >
               2022-2023 School Calendar
             </Button>
-            <Button variant='schoolCalendar' className='text-white sub-font mr-8 text-[1.5rem] px-10 py-6'>
+            <Button
+              variant='schoolCalendar'
+              className='text-white sub-font mr-8 text-[1.5rem] px-10 py-6'
+            >
               2023-2024 School Calendar
             </Button>
             <Button

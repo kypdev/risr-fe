@@ -170,10 +170,6 @@ export default function Home() {
             height={467}
             alt={''}
           />
-          <p className='flex flex-row text-5xl text-[#1C355E] my-10 w-1'>
-            RECENT&nbsp;NEWS
-          </p>
-          <hr className={`${styles.solidHr}`} />
         </main>
       </div>
     </div>

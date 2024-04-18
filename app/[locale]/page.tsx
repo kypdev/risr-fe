@@ -1,11 +1,11 @@
+import ExpandSection from '@/components/ExpandSection'
 import TimelineCarousel from '@/components/TimelineCarousel'
+import Title from '@/components/Title'
 import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { data } from './mockData'
 import styles from './style.module.css'
-import Title from '@/components/Title'
-import ExpandSection from '@/components/ExpandSection'
 
 export const metadata = {
   title: 'Home',

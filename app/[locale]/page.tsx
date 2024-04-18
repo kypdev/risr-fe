@@ -11,11 +11,12 @@ export const metadata = {
 
 export default function Home() {
   const t = useTranslations('Home')
+  const video: string = '/home/home2.mp4'
   return (
     <div className='bg-grey flex flex-col'>
       <div className='flex items-center justify-start'>
         <video
-          src={require('../../public/home/home2.mp4')}
+          src={video}
           autoPlay
           muted
           loop

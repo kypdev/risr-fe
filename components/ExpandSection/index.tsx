@@ -33,16 +33,16 @@ const ExpandSection = ({ data }: ExpandSectionProps) => {
           >
             <div className='content ml-4 mb-8'>
               <h1 className='text-[2rem] text-center'>
-                {
-                  t.rich(v.title, {
-                    br: () => <br />
-                  })
-                }
+                {t.rich(v.title, {
+                  br: () => <br />,
+                })}
               </h1>
               <div className='detail'>
                 <ul className='list-disc pl-8'>
                   {v.description.map((v, i) => (
-                    <li className='' key={i}>{v}</li>
+                    <li className='' key={i}>
+                      {v}
+                    </li>
                   ))}
                 </ul>
               </div>

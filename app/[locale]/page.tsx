@@ -96,13 +96,6 @@ export default function Home() {
           alt={''}
         />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-          {/* <Image
-            src='/home/img1.svg'
-            className='w-full pointer-events-none z-10 pt-16'
-            width={1440}
-            height={467}
-            alt={''}
-          /> */}
           <div className='flex flex-col z-10'>
             <Title title={t('title1')} hasLine />
             <div className='flex flex-row mt-8'>

@@ -88,6 +88,19 @@ const footerRight = [
   },
 ]
 
+const handleClickSocialIcon = (url: string) => {
+  console.log('fuck')
+  window.open(url, '_blank')
+}
+
+const socialLinks = {
+  fb: 'https://www.facebook.com/RISRatchapruek',
+  ig: 'https://www.instagram.com/ruamrudeebkk/',
+  linkedIn: 'https://www.linkedin.com/company/ruamrudee-international-school/',
+  line: 'https://twitter.com/ruamrudeebkk',
+  yt: 'https://www.youtube.com/channel/UCu77rQXwBs9PD62sj6_x38A',
+}
+
 const Footer = () => {
   const t = useTranslations('Footer')
   return (
@@ -98,19 +111,19 @@ const Footer = () => {
       <div className="relative bg-[url('/footer/footer-bg.png')] bg-no-repeat w-full flex flex-col bg-cover mt-[10vw] justify-center items-center">
         {/* div social icons */}
         <div className='flex justify-center items-center gap-9 absolute top-[-3vw]'>
-          <BgSocialIcon>
+          <BgSocialIcon onClick={() => handleClickSocialIcon(socialLinks.fb)}>
             <FaFacebookF size={30} color='#416BA9' />
           </BgSocialIcon>
-          <BgSocialIcon>
+          <BgSocialIcon onClick={() => handleClickSocialIcon(socialLinks.ig)}>
             <BsInstagram size={30} color='#416BA9' />
           </BgSocialIcon>
-          <BgSocialIcon>
+          <BgSocialIcon onClick={() => handleClickSocialIcon(socialLinks.linkedIn)}>
             <ImLinkedin size={30} color='#416BA9' />
           </BgSocialIcon>
-          <BgSocialIcon>
+          <BgSocialIcon onClick={() => handleClickSocialIcon(socialLinks.line)}>
             <FaLine size={30} color='#416BA9' />
           </BgSocialIcon>
-          <BgSocialIcon>
+          <BgSocialIcon onClick={() => handleClickSocialIcon(socialLinks.yt)}>
             <BsYoutube size={30} color='#416BA9' />
           </BgSocialIcon>
         </div>
@@ -138,11 +151,9 @@ const Footer = () => {
           <div className='bg-line border-2 border-solid mx-16'></div>
           {/* footer right */}
           <div className='flex flex-row gap-20'>
-            {
-              footerRight.map(v => (
-                <DetailList key={v.id} title={v.title} detail={v.detail} />
-              ))
-            }
+            {footerRight.map((v) => (
+              <DetailList key={v.id} title={v.title} detail={v.detail} />
+            ))}
           </div>
         </div>
       </div>

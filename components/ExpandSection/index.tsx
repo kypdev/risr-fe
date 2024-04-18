@@ -22,12 +22,12 @@ const ExpandSection = ({ data }: ExpandSectionProps) => {
           <div
             className={`section rounded-lg ${
               v.id == 1
-                ? "bg-[url('/home/1.jpg')]"
+                ? "bg-[url('/home/1.png')]"
                 : v.id == 2
-                ? "bg-[url('/home/2.jpg')]"
+                ? "bg-[url('/home/2.png')]"
                 : v.id == 3
-                ? "bg-[url('/home/3.jpg')]"
-                : "bg-[url('/home/4.jpg')]"
+                ? "bg-[url('/home/3.png')]"
+                : "bg-[url('/home/4.png')]"
             }`}
             key={v.id}
           >

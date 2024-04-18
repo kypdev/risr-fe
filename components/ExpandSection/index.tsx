@@ -28,11 +28,11 @@ const ExpandSection = ({ data }: ExpandSectionProps) => {
                 : v.id == 3
                 ? "bg-[url('/home/3.jpg')]"
                 : "bg-[url('/home/4.jpg')]"
-            } hover:text-start`}
+            }`}
             key={v.id}
           >
             <div className='content ml-4 mb-8'>
-              <h1 className='text-[2rem] text-center hover:text-start'>
+              <h1 className='text-[2rem] text-center'>
                 {
                   t.rich(v.title, {
                     br: () => <br />

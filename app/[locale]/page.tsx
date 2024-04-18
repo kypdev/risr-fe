@@ -1,9 +1,9 @@
+import TimelineCarousel from '@/components/TimelineCarousel'
 import { Button } from '@/components/ui/button'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { data } from './mockData'
 import styles from './style.module.css'
-import TimelineCarousel from '@/components/TimelineCarousel'
 
 export const metadata = {
   title: 'Home',
@@ -11,25 +11,15 @@ export const metadata = {
 
 export default function Home() {
   const t = useTranslations('Home')
-  const video: string = '/home/home2.mp4'
   return (
     <div className='bg-grey flex flex-col'>
       <div className='flex flex-col items-start justify-start'>
-        {/* <video
-          src={video}
-          autoPlay
-          muted
-          loop
-          width='1903'
-          height='367'
-          className={`${styles.video} 2xl:h-[20vw] xl:h-[32.5vw] 2xl:2-[40vw]`}
-        /> */}
         <div className='h-[30vw] w-full overflow-hidden'>
           <iframe
             width='1903'
             height='1200'
             allow='autoplay'
-            src="https://www.youtube.com/embed/fmF7V7EUJeI?si=lzPE2w_6ES1L79Fd&playlist=fmF7V7EUJeI&autoplay=1&mute=1&loop=1&end=178"
+            src='https://www.youtube.com/embed/fmF7V7EUJeI?si=lzPE2w_6ES1L79Fd&playlist=fmF7V7EUJeI&autoplay=1&mute=1&loop=1&end=178'
             className='pointer-events-none absolute top-[-4vw] z-[-10]'
           ></iframe>
         </div>

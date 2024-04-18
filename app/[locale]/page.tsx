@@ -29,7 +29,6 @@ export default function Home() {
             width='1903'
             height='1200'
             allow='autoplay'
-            // src='https://www.youtube.com/embed/fmF7V7EUJeI?si=lzPE2w_6ES1L79Fd?showinfo=1&controls=1&mute=1&autoplay=1&amp;start=179&loop=1'
             src="https://www.youtube.com/embed/fmF7V7EUJeI?si=lzPE2w_6ES1L79Fd&playlist=fmF7V7EUJeI&autoplay=1&mute=1&loop=1&end=178"
             className='pointer-events-none absolute top-[-4vw] z-[-10]'
           ></iframe>

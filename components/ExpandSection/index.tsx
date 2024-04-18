@@ -17,10 +17,10 @@ const ExpandSection = ({ data }: ExpandSectionProps) => {
   const t = useTranslations('Home')
   return (
     <div>
-      <div className='container'>
+      <div className='flex'>
         {data.map((v) => (
           <div
-            className={`section rounded-lg ${
+            className={`section rounded-lg h-[33vw] ${
               v.id == 1
                 ? "bg-[url('/home/1.png')]"
                 : v.id == 2

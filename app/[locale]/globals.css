@@ -127,3 +127,7 @@ p {
 .menu-underline {
   @apply hover:underline hover:underline-offset-8 decoration-[#6badda]
 }
+
+svg:hover path:hover {
+  fill: green !important;
+}

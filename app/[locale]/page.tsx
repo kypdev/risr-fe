@@ -96,7 +96,7 @@ export default function Home() {
           alt={''}
         />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-          <div className='flex flex-col z-10'>
+          <div className='flex flex-col z-10 h-[42vw]'>
             <Title title={t('title1')} hasLine />
             <div className='flex flex-row mt-8'>
               <div className='flex-[1.2]'>
@@ -136,7 +136,7 @@ export default function Home() {
           />
           <Image
             src='/home/img3.svg'
-            className='w-full py-4 pointer-events-none z-10 pt-32'
+            className='w-full py-4 pointer-events-none z-10 pt-12'
             width={1440}
             height={467}
             alt={''}

@@ -1,5 +1,3 @@
-// 'use client'
-
 import Banner from '@/components/Banner'
 import ChildrenLayout from '@/components/ChildrenLayout'
 import TitleAndSub from '@/components/TitleAndSub'

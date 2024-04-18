@@ -27,9 +27,12 @@ const expandSectionData = [
     image: '/home/2.jpg',
     title: 'elementary-school',
     description: [
-      'Pre-K 2 - 2 years',
-      'Pre-K 3 - 3 years',
-      'Pre-K 4 - 4 years',
+      'Kindergarten - 5 years',
+      'Grade 1 - 6 years',
+      'Grade 2 - 7 years',
+      'Grade 3 - 8 years',
+      'Grade 4 - 9 years',
+      'Grade 5 - 10 years',
     ],
   },
   {
@@ -37,9 +40,9 @@ const expandSectionData = [
     image: '/home/3.jpg',
     title: 'middle-school',
     description: [
-      'Pre-K 2 - 2 years',
-      'Pre-K 3 - 3 years',
-      'Pre-K 4 - 4 years',
+      'Grade 6 - 11 years',
+      'Grade 7 - 12 years',
+      'Grade 8 - 13 years',
     ],
   },
   {
@@ -47,9 +50,9 @@ const expandSectionData = [
     image: '/home/4.jpg',
     title: 'high-school',
     description: [
-      'Pre-K 2 - 2 years',
-      'Pre-K 3 - 3 years',
-      'Pre-K 4 - 4 years',
+      'Grade 9 - 14 years',
+      'Grade 10 - 15 years',
+      'Grade 11 - 16 years',
     ],
   },
 ]

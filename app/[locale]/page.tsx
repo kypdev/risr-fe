@@ -14,8 +14,8 @@ export default function Home() {
   const video: string = '/home/home2.mp4'
   return (
     <div className='bg-grey flex flex-col'>
-      <div className='flex items-center justify-start'>
-        <video
+      <div className='flex flex-col items-start justify-start'>
+        {/* <video
           src={video}
           autoPlay
           muted
@@ -23,22 +23,29 @@ export default function Home() {
           width='1903'
           height='367'
           className={`${styles.video} 2xl:h-[20vw] xl:h-[32.5vw] 2xl:2-[40vw]`}
-        />
-        <div className='absolute'>
-          <div className=' z-10 2xl:top-[18vw] text-white'>
-            <div className='2xl:pl-[8vw] 2xl:pt-[2vw]'>
-              <h1 className='bebas 2xl:text-[3vw] '>
-                {t.rich('school-name', {
-                  br: () => <br />,
-                })}
-              </h1>
-              <Button variant='trans' className='sub-font mr-4'>
-                {t('news')}
-              </Button>
-              <Button variant='trans' className='sub-font'>
-                {t('ris-history')}
-              </Button>
-            </div>
+        /> */}
+        <div className='h-[30vw] w-full overflow-hidden'>
+          <iframe
+            width='1903'
+            height='1200'
+            allow='autoplay'
+            src='https://www.youtube.com/embed/fmF7V7EUJeI?si=lzPE2w_6ES1L79Fd?showinfo=1&controls=1&loop=1&mute=1&autoplay=1'
+            className='pointer-events-none absolute top-[-4vw] z-[-10]'
+          ></iframe>
+        </div>
+        <div className='absolute top-[16vw] left-[6vw]'>
+          <div className='z-10 text-white'>
+            <h1 className='bebas 2xl:text-[3vw] '>
+              {t.rich('school-name', {
+                br: () => <br />,
+              })}
+            </h1>
+            <Button variant='trans' className='sub-font mr-4'>
+              {t('news')}
+            </Button>
+            <Button variant='trans' className='sub-font'>
+              {t('ris-history')}
+            </Button>
           </div>
         </div>
       </div>

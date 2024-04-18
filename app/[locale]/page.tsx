@@ -4,10 +4,55 @@ import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { data } from './mockData'
 import styles from './style.module.css'
+import Title from '@/components/Title'
+import ExpandSection from '@/components/ExpandSection'
 
 export const metadata = {
   title: 'Home',
 }
+
+const expandSectionData = [
+  {
+    id: 1,
+    image: '/home/1.jpg',
+    title: 'pre-k',
+    description: [
+      'Pre-K 2 - 2 years',
+      'Pre-K 3 - 3 years',
+      'Pre-K 4 - 4 years',
+    ],
+  },
+  {
+    id: 2,
+    image: '/home/2.jpg',
+    title: 'elementary-school',
+    description: [
+      'Pre-K 2 - 2 years',
+      'Pre-K 3 - 3 years',
+      'Pre-K 4 - 4 years',
+    ],
+  },
+  {
+    id: 3,
+    image: '/home/3.jpg',
+    title: 'middle-school',
+    description: [
+      'Pre-K 2 - 2 years',
+      'Pre-K 3 - 3 years',
+      'Pre-K 4 - 4 years',
+    ],
+  },
+  {
+    id: 4,
+    image: '/home/4.jpg',
+    title: 'high-school',
+    description: [
+      'Pre-K 2 - 2 years',
+      'Pre-K 3 - 3 years',
+      'Pre-K 4 - 4 years',
+    ],
+  },
+]
 
 export default function Home() {
   const t = useTranslations('Home')
@@ -39,7 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='bg-[#E5E9EF]'>
+      <div className='bg-[#E5E9EF] w-full'>
         <Image
           src='/home/bg.svg'
           className='w-full pointer-events-none absolute'
@@ -48,13 +93,44 @@ export default function Home() {
           alt={''}
         />
         <main className='flex flex-col mx-40 sm:mx-0 lg:mx-40'>
-          <Image
+          {/* <Image
             src='/home/img1.svg'
             className='w-full pointer-events-none z-10 pt-16'
             width={1440}
             height={467}
             alt={''}
-          />
+          /> */}
+          <div className='flex flex-col z-10'>
+            <Title title={t('title1')} hasLine />
+            <div className='flex flex-row mt-8'>
+              <div className='flex-[1.2]'>
+                <p className='text-[1.2rem]'>
+                  {t.rich('desc1', {
+                    br: () => <br />,
+                    b: (c) => <b className='text-title font-bold'>{c}</b>,
+                  })}
+                </p>
+                <div className='flex flex-row justify-between px-8 mt-8'>
+                  <Button
+                    variant='blue'
+                    className='text-[1.3rem] py-[1.2vw] px-[5vw]'
+                    size='default'
+                  >
+                    Apply now
+                  </Button>
+                  <Button
+                    variant='transblue'
+                    className='text-[1.3rem] py-[1.2vw] px-[5vw]'
+                  >
+                    Calendar
+                  </Button>
+                </div>
+              </div>
+              <div className='flex-[2]'>
+                <ExpandSection data={expandSectionData} />
+              </div>
+            </div>
+          </div>
           <Image
             src='/home/img5.svg'
             className='w-full pointer-events-none z-10 pt-16'

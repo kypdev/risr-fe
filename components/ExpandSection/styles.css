@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 45vh;
+}
+
+.detail {
+  display: none;
+  width: 15vw;
+}
+
+.section:hover .detail {
+  display: inline;
+  transition: flex .4s ease;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  transition: flex .4s ease;
+}
+
+.section:hover {
+  flex: 1.5;
+  justify-content: start;
+  text-align: start;
+}
+
+.section:hover .detail {
+  text-align: start;
+}
+
+.section .overlay {
+  background-color: rgba(37, 37, 37, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color .8s ease;
+}
+
+.section:hover .overlay:hover .detail:hover {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.section .content {
+  z-index: 2;
+}
+
+.marketing {
+  background-image: url('/home/1.jpg');
+}
+
+.technology {
+  background-image: url('/home/2.jpg');
+
+}
+
+.adverting {
+  background-image: url('/home/3.jpg');
+}
